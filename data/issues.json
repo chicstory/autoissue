@@ -277,6 +277,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoWTJFYzBWc2M1LTA1UlMxWTB2NTAxOEZ3bnE4XzR4SExLQi1nQ0c2a0NHY2JqdXZsTWNWOGoyZVpuN1hGRW0weTFET0lMWTJIeEgwazY1Nmlqc2lzTW9nZFcyQThCekZ3ZjI3bGk2QXQxZlNSSFE?oc=5"
   },
   {
+    "id": "nhtsa-9391",
+    "date": "2026-09-09",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Recall Roundup: NHTSA flags safety defects across trucks, vans, and pickups - fleetowner.com",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQakNJRndsWURSZ1ctOGZUUERZZ295UGw4WDJvQTBHUHhvVVEyYVZxaWJGRS1FM1lOYV9rR3pRUUM1MDhaSWZLY3RvQnNadXBnc1lYN2EtdjlQT0szeE9GWEJySkRxUnlzcWV1NjV5Nmd3VXpvWVlTd0t5MTdEUmw5OVN1dDRRUFFNUkpKZmZNYkJJOXVvNzVPZGV6VGp1cWo4dHh5cTF0c25WOXpYUndpUXJkUmliOS1kbl9vNnMtVDRucm5Gc0Nn?oc=5"
+  },
+  {
     "id": "iss-2026-09-03",
     "date": "2026-09-08",
     "brand_id": "mercedes",
@@ -932,6 +959,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdHd3cFRVYnV0LXJMeEJ3bEpaeUZJRDJkalZBaTA2STFDZ0tmRUZjOHBqQTVBRENNTGZVaFZ0S2pBWkQzMXJ3ay1fU3pvNGlaSzJuQmhucXMtR1dlaF9GMEFjMnFYZ1VicjVIV0hVSWZSVldPUE5CR0wyMGtxanlBV09LcnJBS3V1?oc=5"
+  },
+  {
+    "id": "nhtsa-14767",
+    "date": "2026-09-06",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Deadly Replacement Air Bags May Not Show Up In Vin Recall Searches Nhtsa Warns - brooklyn.news12.com",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU09jdFlpNWxKMXJxNXp1cHk3SXA4UjI5T2lWcEU0d1ZSYnB3UUp0VVh3dEpWRl9rQko5cnJvU2p5alhrOHRWZ2Nydi1CbmNKNHFuLUhiLUkzVW1tMXFRWHpuMkV6dHc5NlVvc1h5ZEdYY0FpRDRVVWtBeEhlLWpSNndHM3RuSVJfeUkyTjlOZ1oxY2NQTWdPSF9MVWZuOEtiamFzVndwd2dpWExzb0Y5ZXdXOXZXdXkwNGVGN0lwS2FXTFBuQi1rS01YbERhbWdoY3N1R2VyQQ?oc=5"
   },
   {
     "id": "iss-2026-09-06",
