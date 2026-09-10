@@ -652,6 +652,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZWVTZkhjUWVEMDA5azNCZUNOQUNzbFlSSVRrZnFHdldDZFRiWHI3VkNwY0lnZU9QLUhaQ1dIRkNnb2dQTzVGVDltei12YnhlVHpyWlNZUjRwTkw2TjJlY3NzNmFYMEQ0S3ZHUXp0bTlaaFdMOWpMamJJeWRrVHBnaUpZcEpNVXNXRC1LajRMVGE0Z1RlNWJwQzRJZU9TX3pCcHE5NE92LVJWclNUV1d4a0E4MmxvVm_SAbwBQVVfeXFMUHhrdFo4S3MwTWFrR1AwQzRFdWtxVmhYUG9qcTdiWE1mMjl0N1BiaXFVYWtrNmxTaUtDdDI2UHY2cC1iZTNMNEM5cUd0R1FnVEhqYUVzRndFQ083UGI0MlBfSFZ2bUp3d1g1SFZNTzhzTHdDRU1la3hzTHgzYlBjSmROeXpwVW5hMUhOUmRJVnhkZGN0d0x6ODhMY3VXcU0wSEFBaE5lbWlmYnRlV1VrNjU2bXdVXzFxT3pvMnc?oc=5"
   },
   {
+    "id": "nhtsa-721737",
+    "date": "2026-08-20",
+    "brand_id": "bmw_mini",
+    "brand_name": "BMW · MINI",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] BMW recalls nearly 28,000 luxury vehicles over driveshaft flaw that poses rollaway risk - foxbusiness.com",
+    "vehicles": [
+      "BMW"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/bmw_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZWVTZkhjUWVEMDA5azNCZUNOQUNzbFlSSVRrZnFHdldDZFRiWHI3VkNwY0lnZU9QLUhaQ1dIRkNnb2dQTzVGVDltei12YnhlVHpyWlNZUjRwTkw2TjJlY3NzNmFYMEQ0S3ZHUXp0bTlaaFdMOWpMamJJeWRrVHBnaUpZcEpNVXNXRC1LajRMVGE0Z1RlNWJwQzRJZU9TX3pCcHE5NE92LVJWclNUV1d4a0E4MmxvVm_SAbwBQVVfeXFMUHhrdFo4S3MwTWFrR1AwQzRFdWtxVmhYUG9qcTdiWE1mMjl0N1BiaXFVYWtrNmxTaUtDdDI2UHY2cC1iZTNMNEM5cUd0R1FnVEhqYUVzRndFQ083UGI0MlBfSFZ2bUp3d1g1SFZNTzhzTHdDRU1la3hzTHgzYlBjSmROeXpwVW5hMUhOUmRJVnhkZGN0d0x6ODhMY3VXcU0wSEFBaE5lbWlmYnRlV1VrNjU2bXdVXzFxT3pvMnc?oc=5"
+  },
+  {
     "id": "nhtsa-57532",
     "date": "2026-08-19",
     "brand_id": "bmw_mini",
