@@ -118,10 +118,11 @@ def fetch_rss(url, timeout=7):
 
 def collect_korean_news():
     queries = [
-        "자동차 리콜",
-        "국토부 리콜",
-        "현대차 기아 신차",
-        "수입차 무상수리"
+        "자동차 리콜 when:7d",
+        "국토부 리콜 when:7d",
+        "자동차 무상수리 when:7d",
+        "현대차 기아 신차 when:7d",
+        "수입차 결함 리콜 when:7d"
     ]
     items = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -134,7 +135,7 @@ def collect_korean_news():
             continue
         try:
             root = ET.fromstring(xml_data)
-            for item in root.findall(".//item")[:4]:
+            for item in root.findall(".//item")[:5]:
                 title = clean_html_tags(item.findtext("title", ""))
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
@@ -185,10 +186,11 @@ def collect_korean_news():
 
 def collect_global_nhtsa_news():
     queries = [
-        "NHTSA recall Hyundai Kia",
-        "NHTSA recall BMW",
-        "NHTSA recall Mercedes",
-        "NHTSA recall Toyota Ford"
+        "NHTSA recall Hyundai Kia when:7d",
+        "NHTSA recall BMW when:7d",
+        "NHTSA recall Mercedes when:7d",
+        "NHTSA recall Toyota Ford when:7d",
+        "NHTSA safety recall defect when:7d"
     ]
     items = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -201,7 +203,7 @@ def collect_global_nhtsa_news():
             continue
         try:
             root = ET.fromstring(xml_data)
-            for item in root.findall(".//item")[:3]:
+            for item in root.findall(".//item")[:4]:
                 title = clean_html_tags(item.findtext("title", ""))
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
@@ -273,8 +275,8 @@ def update_pipeline():
     # Sort descending by date
     existing.sort(key=lambda x: x.get("date", "2000-01-01"), reverse=True)
     
-    # Keep top 120 issues to maintain high performance
-    final_issues = existing[:120]
+    # Keep top 500 issues for long-term weekly accumulation
+    final_issues = existing[:500]
     
     with open(ISSUES_FILE, 'w', encoding='utf-8') as f:
         json.dump(final_issues, f, ensure_ascii=False, indent=2)

@@ -115,6 +115,114 @@
     "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84WXJacjhBdDNkclV1WDlzOFVOaDh4c1d5NXUwMlRxVWhUYzJhSmdodmxkbXJEVjRfM3I0Wlk2eXVBd1FQWVNxd0ludkcyOXlZeDlYTXlTMFVqMEQ5WncxNkp1b0NwRXpkZDlMSllPUEMweS1T?oc=5"
   },
   {
+    "id": "nhtsa-58754",
+    "date": "2026-09-09",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] More vehicle technology, not just EV batteries, causing uptick in ‘park outside’ recalls - repairerdrivennews.com",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNHRiRGthVUxpa29tUHMwdlo5b2ZPRDhfQ0JPWElzUnFPQUg5WmpmUVdCd3N6QXU2dElUVHRTTVVYUHFMMEhRZ3RzR1VycnRoZVlESXJZek1DelFhdmFIcmhlUTlXOGRJMEhJWjhxRzJDRDE2RFRPTUZEWkJTbC1UMmR1MS10VURoRU50M2JZNFJEdGZ3MFF6SjdXTWRhUkJRQVZKRFRfWDJyNHNxRUo3UWJvZFYzdGdSN1JvTzViUWl0NXZFVDY3Y2xDZw?oc=5"
+  },
+  {
+    "id": "nhtsa-475739",
+    "date": "2026-09-09",
+    "brand_id": "mercedes",
+    "brand_name": "메르세데스-벤츠",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Nova Warranty Addresses Coverage Gaps for Mercedes-Benz Owners Following Largest Recall Year - FinancialContent",
+    "vehicles": [
+      "메르세데스-벤츠"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/mercedes_benz_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQjFYdk45RXlyaWpVWWdSQTM4LW1PbTlFNU9jZmNjUlhsSHozMVFZNmdoTG1SVmZ4ZFJyRy02US0tQWhLdnA2blpkVThHaVBabi1kbmlOWVBEdTUxS0R6R3dhTHJkM3pwamhSZDVGdDhtbDhFdW0xbGJSVXByU0hZSkQ5c21hSXVZM1dhQmpDQ3VZNXRoRFBjSGpEc1JMeDZrYW1JRURvZXd5OFVTYnhiQmN6Wi1vdlFsNXBmVW80aHRxZTdUTjRkaFFKNXlEZ09UbDcxcFItOGk5YTVpTzNRSzNPOFh2aWNEMGlZYmk2Q01oRFp5YW5Haktn?oc=5"
+  },
+  {
+    "id": "nhtsa-687426",
+    "date": "2026-09-09",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Toyota is recalling 10,000 electric C-HR SUVs - Electrek",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GeTc1bXhaZFZuN0g4QzRRMFpjM0pjX0pSQ2dxelhOZkFxQm0wTW1ackVoc2xCeWljZFRaNHZZNnFDT0NGNWwwV08wSEJpZmNlZFJ1Y2VTLXJTeXc2X0xna24xX09BclEtMG1ZR3F3RWxqZTJETXBTb3lwMzY0UQ?oc=5"
+  },
+  {
+    "id": "nhtsa-715582",
+    "date": "2026-09-09",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Recall Roundup: NHTSA flags safety defects across trucks, vans, and pickups - FleetOwner",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQakNJRndsWURSZ1ctOGZUUERZZ295UGw4WDJvQTBHUHhvVVEyYVZxaWJGRS1FM1lOYV9rR3pRUUM1MDhaSWZLY3RvQnNadXBnc1lYN2EtdjlQT0szeE9GWEJySkRxUnlzcWV1NjV5Nmd3VXpvWVlTd0t5MTdEUmw5OVN1dDRRUFFNUkpKZmZNYkJJOXVvNzVPZGV6VGp1cWo4dHh5cTF0c25WOXpYUndpUXJkUmliOS1kbl9vNnMtVDRucm5Gc0Nn?oc=5"
+  },
+  {
     "id": "iss-2026-09-03",
     "date": "2026-09-08",
     "brand_id": "mercedes",
@@ -145,6 +253,222 @@
     "source_url": "https://www.mercedes-benz.co.kr/"
   },
   {
+    "id": "kr-833073",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "발암 가능성 크림 홍콩에선 판매중단, 싱가포르에선 리콜… 국내에선 “문제없다”는 에이피알·식약처 - 조선비즈 - Chosunbiz",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "발암 가능성 크림 홍콩에선 판매중단, 싱가포르에선 리콜… 국내에선 “문제없다”는 에이피알·식약처 - 조선비즈 - Chosunbiz 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVFBxLTc3aVJiMnpzcmxiTHYta3k1Rzc2UzdTZHpoSG8yejBMMVIwTHB0cDVkejQ4OUFtWWhSNmdOdUhGM0p6R19yV3pBcVM3akJaaXZfMHYxaEtpZnZIeDRlSWoyVllpUXB2Mmlrb1dlUF94QTZudXppZEJTQ0UzcFZKdEpTY3o4ZnVnaEs3TGkxWVnSAacBQVVfeXFMTVBVUnVMVlhzUmVBcWFpLWYzMVFJTUVoQlF4Y3doMkR1UkkycjYzbFVuX2dpXy1ZVEJZSUlFN3h4b1czX2I2dFNweE1kQzR0Z202d0syanZaNmJqQ1JIOFFOVjJIQ0pQNHBaNHNxZ1hmWmZ2Ui02Qm4yOV91N1VJeHFjT2NvR0hvc1VOOFl3cl9vTjNqb19EY3VwbGdlcFVRQ1dIRG0tZTQ?oc=5"
+  },
+  {
+    "id": "kr-800066",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "“토션빔도 결함이네” 셀토스 차주들 빨리 확인하세요! - 닷키프레스",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "“토션빔도 결함이네” 셀토스 차주들 빨리 확인하세요! - 닷키프레스 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0cTd0Q0ZsLVRjdFRJZGtndnM1VTV1SkstdzNLY1MzYTNuYW5GWWF4RnBXMnRrZHZBTmE5SWV0TUVzcG5WUko5N1dzdmRweWV4NjBjZFd3STI4a3NE0gFiQVVfeXFMTlRvOWY0aWJLNWlJNFRSa1J1Q2ljMHZFMlIxcDZqek5tMlFhQktQRE96THNjR0IybWNnbC13S09jcWllQjBycV9lR05DSGx2X29rVEZ2MFItZ1pPRTRCOGo0dFE?oc=5"
+  },
+  {
+    "id": "kr-98270",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "차주 내일 꼭 확인하세요…완성차 5사 무상점검, 선착순 쿠폰 푼다 - 아주경제",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "차주 내일 꼭 확인하세요…완성차 5사 무상점검, 선착순 쿠폰 푼다 - 아주경제 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wMHdkQkhwc09TdlhRVjI4a1BYUVZScWExWWVVdW93Xzh4VmZHYm9uN3E3d01DV0tXclJUXzhhZEZiQ3dTeFlPZFppODhrekgwbmhERnZ5cmrSAVhBVV95cUxOMDB3ZEJIcHNPU3ZYUVYyOGtQWFFWUnFhMVllVXVvd184eFZmR2JvbjdxN3dNQ1dLV3JSVF84YWRGYkN3U3hZT2RaaTg4a3pIMG5oREZ2eXJq?oc=5"
+  },
+  {
+    "id": "kr-34974",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "\"쿠폰 놓치면 못 받아요\"… 현대차·기아 등 5개사, 추석 앞두고 '무상점검' 실시 - 토픽트리",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "\"쿠폰 놓치면 못 받아요\"… 현대차·기아 등 5개사, 추석 앞두고 '무상점검' 실시 - 토픽트리 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0ZSSE9ybXBMUFlCcWdweFZmaEV0TFcxYm9hbWwwVWRpZUxhcWlpQks0LV9lalNZVVFkeTdySmdyc2ZKMHBDSzRkcWJlelh2dFNKck5YXzdBUm1hbWtKaUViOWVFLS1pdVhGVU8zWVFYdHpST1FlS0VPblNNMGlWRjBHZnl5YjJURUZfV9IBlAFBVV95cUxOclhCZlVncWlTbF9WMEliQld6Ulk5NWZhd3VFTl9jT2FMUTFBc0xwM1JFUTBlQW10a29HVm9OZWJGMVgwMlRlR1ZWT2c5R3hfTTlWSkU5S2gwVlFNOW1xSi0xZ3RJREl1bGhObzBoS3ZBaWw4QS1laTNfNXJfRmp3cVVSWG8wTHBxSHVMbm5vNlFCV1pS?oc=5"
+  },
+  {
+    "id": "kr-941431",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "완성차 5사, 추석 연휴 앞두고 차량 무상점검 실시 - 뉴스핌",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "완성차 5사, 추석 연휴 앞두고 차량 무상점검 실시 - 뉴스핌 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNYTFDb1EzVGtfREo0aFJKZl83MERqX0VGeWpzVkdUcU92eEI1S0lTS1ZMLTloUEFfRzRMa1RUb2dJV1BCUFFydmZEUlRmSkExbXAwb1hqWWNsemYy?oc=5"
+  },
+  {
+    "id": "nhtsa-325769",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Jeep Recalls More Than 328K Grand Cherokee SUVs for Rear Suspension Defect - TFLcar",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX1RxWGphSFptS2M3MzZNYU0wVHFZX2JIc0lvNC12S05mSENVQlhYZzdwdG03Rk1NN1BjYVRTYy1MYWdpRzhmSlFFMEZRckhwckRNVy1XcVRaNVB3WFNsaTdYdlJqME94bGRsZG9PcElYX1pyVUhWdHR4Q1NWbE0zSUlPbw?oc=5"
+  },
+  {
+    "id": "nhtsa-444284",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Jeep Recalls 328,381 Grand Cherokees over Rear Coil Springs That Could Detach While Driving - Car and Driver",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWFfd0FONFN4SmRBMFJYd2d0NnFwM3VRU1BfLUx0a09Tb0EtSzd6R1E5MENjbHQ5ai1kcC1iWk8xNVg3RzdBeTBjOUQ5MEpKSmVPUkhJVGUycGVYQ0lHSkZMTzZmc3JTTHVTQzFKYVN2V1luMWIzM3d6SGxLaTI2NGRnNE44MUpWSGNUVVFBQXpTZUxmS3JONEFn?oc=5"
+  },
+  {
+    "id": "nhtsa-594418",
+    "date": "2026-09-08",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Chrysler recalls more than 569,000 vehicles. See recall list - Delawareonline.com",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUnU3N2hUV09RNjBYaFNXV1JncE9NNThuNXdSczQ3OS1CMzVBZnBsVnNLYUwzekZMR3lVN3ZidTJKR1RraFJiOW56WmV0akZyN2o5UXhHU2czcWZ1RUV6T1hMYVlxSjh2T01ma0F3bnRoX1AxaXZPRXlaSVV5MGZuNHV5eGc3cVpzcVcxUXlyZ010Z3Vud2lPdFZPMkpEcnBkby02dWZkMzVyTFJOOXlkYm40YXFnb3d3a3pVeDdn?oc=5"
+  },
+  {
     "id": "iss-2026-09-04",
     "date": "2026-09-07",
     "brand_id": "hyundai_kia",
@@ -173,6 +497,87 @@
     },
     "source_name": "현대자동차그룹 글로벌 미디어센터",
     "source_url": "https://www.hyundai.com/worldwide/"
+  },
+  {
+    "id": "kr-324054",
+    "date": "2026-09-07",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "미래모빌리티안전튜닝협회 \"페달 오조작 방지장치 관리체계 마련을\" - Nate News",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미래모빌리티안전튜닝협회 \"페달 오조작 방지장치 관리체계 마련을\" - Nate News 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBidGFXWUxPOVhVcDhKZzllaHg1bVE0QWVpTWJUVVRTNmpHYmdkLTFWSUI5ajlHQ0FITlB1UWpGMXZlRVhpR3REcFBmQWh0Qk5uZ0Q4?oc=5"
+  },
+  {
+    "id": "kr-633476",
+    "date": "2026-09-07",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "tech_ev",
+    "category_label": "⚡ 전기차·배터리",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "현대차·기아, 8월 美 전기차 판매 '뚝'…하이브리드로 버텼다 - 지디넷코리아",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "현대차·기아, 8월 美 전기차 판매 '뚝'…하이브리드로 버텼다 - 지디넷코리아 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wODNlWnNJYUhDT05ENGxYek9JSmJUWHJCNXNLX21lZEgtWWdNU1JyelVVSkM0aVl5Rm5aOVlHWmo3YkFBN1RhclF2cHlGOFc0RVM3bFBB?oc=5"
+  },
+  {
+    "id": "kr-432557",
+    "date": "2026-09-07",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "기아, 2026 하반기 집중 채용 실시 | 뉴스 | 현대자동차그룹 - Hyundai Motor Group",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "기아, 2026 하반기 집중 채용 실시 | 뉴스 | 현대자동차그룹 - Hyundai Motor Group 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5mdzFNRVZjSjJaekpEMFFZZmdGU0dMd0Z5cFRIYVBfQklMWDh5TnYwT2ZUUWR0WEFDVmZtcTVnVWpqdWswOTVuNTBIa1ZvWmlBZWFBS2ZNTVVrSmFtSUtkeUItdUI0Y2dzUXZnMW5Udw?oc=5"
   },
   {
     "id": "iss-2026-09-05",
@@ -232,6 +637,114 @@
     "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XaFJzaV9Zbzl4dXlTS0lVMTBHMGdDRTYta01pcV85b3d6aHRHekFYajFRRXgxUlVwR3IwOHhZeWNvcjNmN0RyOFdmWTRZc2syOUxpRw?oc=5"
   },
   {
+    "id": "kr-248380",
+    "date": "2026-09-06",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "포티투닷, 현대차 인포테인먼트에 멜론·카카오내비 들어온다 - 플래텀(Platum)",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "포티투닷, 현대차 인포테인먼트에 멜론·카카오내비 들어온다 - 플래텀(Platum) 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE41MFF1aVF4T1VQUl9FUHNTRjFfN19CbHFXZHMybm9GZkl1ZU5SQTJoNGozSEJrcFJmRzhKOUZtVUhScVh5Vzl0OQ?oc=5"
+  },
+  {
+    "id": "nhtsa-801655",
+    "date": "2026-09-06",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Hundreds Of U.S. Car Owners Say Their Sunroofs Are Exploding — NHTSA Can't Find Defects - Yahoo Autos",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSkY5b2hKMV9DOWF6ZUU0SHlLU2Z6eEg1OU9MeElXcldGQmttaVlBWXQ4UlBfMHpnV1ZRX09SRlMxbnFFOURoRV83WGVmRGlwN0VhQmNfSTZIQlJnLXd2OEMtaDlBM3Q4ZGNwZ2REdTI5TkdYeWZHSTYzWnN3MjdsSm1PaDV3SXB3dkZNdS1lWHdKdFJGbUw3Z0p1SUNtUQ?oc=5"
+  },
+  {
+    "id": "nhtsa-640540",
+    "date": "2026-09-06",
+    "brand_id": "ford_lincoln",
+    "brand_name": "포드 · 링컨",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Ford Only Recalled Two Trucks For This Brake Failure. NHTSA Wants To Know About The Other 82,040. - Yahoo Autos",
+    "vehicles": [
+      "포드"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTGJDQ0RsVW9aNzJCTDh1U1JJSTVmbDd5Rk5aS1ptdTVYdHhBNU4yLWNTQzlETXdDcFA4SWctMGVweUJuYU9fVEpPUGo5aEtSWm9ZTG5USzZiS0pRMHlfSDF2amRIZk1zVHBfNWhVX2l1ZDdJdHhTUkhHbFlYRFJlQ1N3eElUQmNfaTFBMHlsZ29kUU9FdUJOX0hYV0U?oc=5"
+  },
+  {
+    "id": "nhtsa-595585",
+    "date": "2026-09-06",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Deadly Replacement Air Bags May Not Show Up In Vin Recall Searches Nhtsa Warns - News12 | Brooklyn",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "북미/글로벌 탑재 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU09jdFlpNWxKMXJxNXp1cHk3SXA4UjI5T2lWcEU0d1ZSYnB3UUp0VVh3dEpWRl9rQko5cnJvU2p5alhrOHRWZ2Nydi1CbmNKNHFuLUhiLUkzVW1tMXFRWHpuMkV6dHc5NlVvc1h5ZEdYY0FpRDRVVWtBeEhlLWpSNndHM3RuSVJfeUkyTjlOZ1oxY2NQTWdPSF9MVWZuOEtiamFzVndwd2dpWExzb0Y5ZXdXOXZXdXkwNGVGN0lwS2FXTFBuQi1rS01YbERhbWdoY3N1R2VyQQ?oc=5"
+  },
+  {
     "id": "iss-2026-09-06",
     "date": "2026-09-05",
     "brand_id": "toyota_lexus",
@@ -260,6 +773,33 @@
     },
     "source_name": "토요타 코리아 공식 보도자료",
     "source_url": "https://www.toyota.co.kr/"
+  },
+  {
+    "id": "kr-711355",
+    "date": "2026-09-05",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "롤 교차 선택 게임 의 비밀을 풀다 - 2025년 최신판 - Histoire pour tous",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "롤 교차 선택 게임 의 비밀을 풀다 - 2025년 최신판 - Histoire pour tous 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbzVYRzBrTWF3WmZjR1dwUHduVjFUNjhNNkJIamdCSXlCbmdBR0ZpWHpOb2NGWkxwRlhkYmdEQ1VaWXd6SG0xOG5iUzZvazRrclNUcUZ4dGZmZTVFdGFDUXI2U1c5WkNLNkF5TFdMSkJkVzU2d2w5UFZCX2xiMU44MkZuMDZMdjFlSWMtaDdYQ3V5V25Kc19TbmVoLUVNNXl5TW10N2dQd0VybU9WekZhcg?oc=5"
   },
   {
     "id": "iss-2026-09-07",
@@ -318,6 +858,60 @@
     "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95VUxlSmZrOVVhaFA1eDJOMm1QcDd0YXVGSFRnLW0zbVc3U0ZsTjk1MVZGWGRDbjZlMkpOdXdCclJTaEVPaEJIM0NOMERoaTF5dGxSZw?oc=5"
   },
   {
+    "id": "kr-360114",
+    "date": "2026-09-04",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "현대차, 호주서 i30 하이브리드 3316대 리콜…화재 우려에 ‘옥외 주차’ 권고 - press9.kr",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "현대차, 호주서 i30 하이브리드 3316대 리콜…화재 우려에 ‘옥외 주차’ 권고 - press9.kr 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tdUw5cWw1clo4Z0x3VThPYjk2WEpKZ2pWY2tYRWdlWDF5VWpOWDN5VG5mdUxBVlNkbEltN19CMElGRG50YTlEUm55eTFkTFk3amRvTmJYY2tYZG5aeHZ6Uw?oc=5"
+  },
+  {
+    "id": "kr-16003",
+    "date": "2026-09-04",
+    "brand_id": "bmw_mini",
+    "brand_name": "BMW · MINI",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": "멀쩡히 세워놨는데 불날 수도…BMW 3·5·7시리즈 18만 9000대 리콜 - 더드라이브",
+    "vehicles": [
+      "BMW"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/bmw_engine_table.html",
+    "summary": "멀쩡히 세워놨는데 불날 수도…BMW 3·5·7시리즈 18만 9000대 리콜 - 더드라이브 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91NlJDN1pldWZtZW5VZV90X2szbExJRDBVenlYdS1MdmFlUnAxYmVlekxuT0RTTTNiVWZfOFU0eGhVQi1xWmQ4LWZWbU5ST3g5eWl3ZVN4NWRPRXZvQ3dsSE9peGg2ZTFjTi1ucVlR0gFuQVVfeXFMT3U2UkM3WmV1Zm1lblVlX3RfazNsTElEMFV6eVh1LUx2YWVScDFiZWV6TG5PRFNNM2JVZl84VTR4aFVCLXFaZDgtZlZtTlJPeDl5aXdlU3g1ZE9Fdm9Dd2xIT2l4aDZlMWNOLW5xWVE?oc=5"
+  },
+  {
     "id": "iss-2026-09-08",
     "date": "2026-09-03",
     "brand_id": "kgm",
@@ -373,6 +967,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fZWxHTUNHcDBXV0p2VkpwcTk4QTVFZmZVWGh5VkVHRlFZRnVSSWc5eENUTWJGSlozbThuemJISkI0NU1FNkpHbW9UWGlQclN2dXBjRWpQenljX3RJ?oc=5"
+  },
+  {
+    "id": "kr-758696",
+    "date": "2026-09-03",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고",
+    "title": ": 다나와 자동차 - 다나와 자동차",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "주요 파워트레인"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": ": 다나와 자동차 - 다나와 자동차 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWldSQXJXRWtzTjkxbm40UnRaajhzeHc3NWE1c3VLUU1nTVdaTlg4UXZLVF9oMEJIRk1rcDhYSmZuSTJwdjRPY1hRLTJ5dW9VTXFQRVN3UThrYnRwU2toNFBxWkJESWh2Szk5bUZXcnF5eHFWRTR4M1VJUnpMc0tvcTdmYWdmSUwzc1EtOEF3WGNya1Y5?oc=5"
   },
   {
     "id": "iss-2026-09-09",
