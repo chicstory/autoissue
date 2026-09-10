@@ -1,9 +1,14 @@
 {
-  "last_updated": "2026-09-10 17:12",
-  "total_count": 62,
-  "recall_count": 38,
-  "newcar_count": 7,
+  "last_updated": "2026-09-10 18:28",
+  "total_count": 73,
+  "recall_count": 44,
+  "newcar_count": 8,
   "service_count": 3,
-  "global_count": 25,
-  "brands_count": 10
+  "global_count": 30,
+  "brands_count": 13,
+  "ev_new_brands": [
+    "byd",
+    "rivian",
+    "lucid"
+  ]
 }

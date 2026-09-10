@@ -69,6 +69,21 @@ BRAND_CONFIG = {
         "name": "테슬라 · 기타 수입차",
         "keywords": ["테슬라", "Tesla", "볼보", "Volvo", "포르쉐", "Porsche", "폴스타"],
         "engine_table": "https://chicstory.github.io/engines/"
+    },
+    "byd": {
+        "name": "BYD (비야디)",
+        "keywords": ["BYD", "비야디", "씰", "아토3", "Atto", "돌핀", "Dolphin", "한EV", "탕EV", "비야디코리아"],
+        "engine_table": "https://chicstory.github.io/engines/"
+    },
+    "rivian": {
+        "name": "Rivian",
+        "keywords": ["Rivian", "리비안", "R1T", "R1S", "R2", "R3"],
+        "engine_table": "https://chicstory.github.io/engines/"
+    },
+    "lucid": {
+        "name": "Lucid Motors",
+        "keywords": ["Lucid", "루시드", "Lucid Air", "Lucid Gravity", "루시드 에어"],
+        "engine_table": "https://chicstory.github.io/engines/"
     }
 }
 
@@ -122,7 +137,9 @@ def collect_korean_news():
         "국토부 리콜 when:7d",
         "자동차 무상수리 when:7d",
         "현대차 기아 신차 when:7d",
-        "수입차 결함 리콜 when:7d"
+        "수입차 결함 리콜 when:7d",
+        "BYD 비야디 리콜 결함 when:7d",
+        "BYD 비야디 신차 출시 when:7d"
     ]
     items = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -154,7 +171,7 @@ def collect_korean_news():
                 cat_id, cat_label = detect_category(title)
                 
                 # Skip trivial non-auto matches
-                if not any(k in title for k in ["차", "차량", "모빌리티", "엔진", "모터", "기아", "현대", "BMW", "벤츠", "리콜", "아우디", "폭스바겐", "KGM", "쉐보레", "토요타", "포드", "테슬라"]):
+                if not any(k in title for k in ["차", "차량", "모빌리티", "엔진", "모터", "기아", "현대", "BMW", "벤츠", "리콜", "아우디", "폭스바겐", "KGM", "쉐보레", "토요타", "포드", "테슬라", "BYD", "비야디"]):
                     continue
 
                 items.append({
@@ -190,7 +207,12 @@ def collect_global_nhtsa_news():
         "NHTSA recall BMW when:7d",
         "NHTSA recall Mercedes when:7d",
         "NHTSA recall Toyota Ford when:7d",
-        "NHTSA safety recall defect when:7d"
+        "NHTSA safety recall defect when:7d",
+        "NHTSA recall BYD when:7d",
+        "NHTSA recall Rivian when:7d",
+        "Rivian recall defect investigation when:7d",
+        "NHTSA recall Lucid when:7d",
+        "Lucid Motors recall defect when:7d"
     ]
     items = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -291,7 +313,8 @@ def update_pipeline():
         "newcar_count": sum(1 for i in final_issues if i.get("category") == "newcar"),
         "service_count": sum(1 for i in final_issues if i.get("category") == "service"),
         "global_count": sum(1 for i in final_issues if i.get("origin") == "global_nhtsa"),
-        "brands_count": len(BRAND_CONFIG)
+        "brands_count": len(BRAND_CONFIG),
+        "ev_new_brands": ["byd", "rivian", "lucid"]
     }
     
     with open(STATS_FILE, 'w', encoding='utf-8') as f:

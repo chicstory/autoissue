@@ -3,7 +3,8 @@ chcp 65001 > nul
 setlocal enabledelayedexpansion
 
 echo ===================================================
-echo [ThePathLab] Auto Issue Daily Briefing & Deploy
+echo [ThePathLab] Auto Issue Daily Briefing ^& Deploy
+echo  13 Brand Groups: KR10 + BYD + Rivian + Lucid
 echo ===================================================
 
 cd /d "%~dp0"
