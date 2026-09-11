@@ -9,7 +9,7 @@ echo ===================================================
 
 cd /d "%~dp0"
 
-echo [1/3] Fetching domestic and global auto issues...
+echo [1/4] Fetching domestic and global auto issues...
 python auto_issue_collector.py
 if errorlevel 1 (
     echo [ERROR] Collector script failed. Please check internet connection.
@@ -18,16 +18,29 @@ if errorlevel 1 (
 )
 
 echo.
-echo [2/3] Staging updated data and files...
-git add index.html data/issues.json data/latest_stats.json auto_issue_collector.py run_autoissue.bat README.md 2>nul
+echo [2/4] Updating unified network SEO & RSS feeds...
+python "%~dp0..\thepathlab\generate_network_seo.py"
 
 echo.
-echo [3/3] Committing and deploying to GitHub...
+echo [3/4] Staging updated data and files...
+git add index.html sitemap.xml rss.xml robots.txt data/issues.json data/latest_stats.json auto_issue_collector.py run_autoissue.bat README.md 2>nul
+
 for /f "tokens=1-3 delims=- " %%a in ('date /t') do (
     set TODAY=%%a-%%b-%%c
 )
-git commit -m "Auto update daily issues: %TODAY%"
+git commit -m "Auto update daily issues & RSS: %TODAY%"
 git push origin main
+
+echo.
+echo [4/4] Deploying master RSS feed to Portal...
+set "PORTAL_DIR=%~dp0..\chicstory.github.io"
+if exist "%PORTAL_DIR%\rss.xml" (
+    pushd "%PORTAL_DIR%"
+    git add rss.xml sitemap.xml robots.txt
+    git commit -m "Auto sync portal master RSS with auto issues: %TODAY%" > nul 2>&1
+    git push origin main
+    popd
+)
 
 echo.
 echo ===================================================
