@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chicstory.github.io/autoissue/sitemap.xml
-Sitemap: https://chicstory.github.io/autoissue/rss.xml
+Sitemap: https://thapathlab.com/autoissue/sitemap.xml
+Sitemap: https://thapathlab.com/autoissue/rss.xml
