@@ -17,12 +17,12 @@
     <meta name="description" content="현대·기아, BMW, 벤츠, 폭스바겐, 아우디, 쉐보레, 르노, 토요타, 포드, 테슬라, BYD, Rivian, Lucid 등 자동차 제조사별 최신 리콜 공고, 결함 조사, 미국 NHTSA 해외 선제 공고, 신차 출시 및 무상수리 데일리 브리핑">
     <meta name="keywords" content="자동차리콜, 국토부리콜, NHTSA리콜, 현대차리콜, BMW리콜, 벤츠결함, 신차출시, 페이스리프트, 무상수리, 자동차이슈, 더패스랩, ThePathLab">
     <meta name="author" content="ThePathLab">
-    <link rel="canonical" href="https://chicstory.github.io/autoissue/">
-    <link rel="alternate" type="application/rss+xml" title="ThePathLab 자동차 데일리 이슈 RSS 피드" href="https://chicstory.github.io/autoissue/rss.xml">
+    <link rel="canonical" href="https://thapathlab.com/autoissue/">
+    <link rel="alternate" type="application/rss+xml" title="ThePathLab 자동차 데일리 이슈 RSS 피드" href="https://thapathlab.com/autoissue/rss.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://chicstory.github.io/autoissue/">
+    <meta property="og:url" content="https://thapathlab.com/autoissue/">
     <meta property="og:title" content="자동차 제조사별 데일리 이슈 & 리콜·신차 허브 | ThePathLab">
     <meta property="og:description" content="자동차 제조사별 실시간 리콜, 미국 NHTSA 해외 선제 공고, 신차 출시, 무상수리 캠페인 데일리 모니터링">
 
@@ -208,6 +208,7 @@ body {
   justify-content: center;
   font-size: 1.35rem;
   transition: all 0.2s ease;
+  flex-shrink: 0;
 }
 
 .tpl-hamburger-btn:hover {
@@ -870,10 +871,17 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .tpl-nav-bar { padding: 0.5rem 0.85rem; }
   .kpi-grid { grid-template-columns: 1fr; }
   .cards-grid { grid-template-columns: 1fr; }
   .filter-header-bar { flex-direction: column; align-items: stretch; }
   .search-input-wrap { max-width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .tpl-lang-wrap { display: none; }
+  .tpl-nav-brand { font-size: 1.08rem; }
+  .tpl-brand-badge { font-size: 0.65rem; padding: 2px 5px; }
 }
     </style>
 </head>
@@ -882,19 +890,19 @@ footer {
 <!-- ThePathLab Global Unified Navigation Bar -->
 <nav class="tpl-nav-bar" id="tplNavBar">
   <div class="tpl-nav-inner">
-    <a href="https://chicstory.github.io/" class="tpl-nav-brand">
+    <a href="https://thapathlab.com/" class="tpl-nav-brand">
       <i class="bi-shield-exclamation"></i>
       <span>ThePathLab</span>
       <span class="tpl-brand-badge" id="tplNavBadge">AUTO ISSUE</span>
     </a>
 
     <div class="tpl-nav-links">
-      <a href="https://chicstory.github.io/" class="tpl-nav-link"><i class="bi-house-door"></i> 포털 홈</a>
-      <a href="https://chicstory.github.io/autoissue/" class="tpl-nav-link active"><i class="bi-bell-fill"></i> 자동차 데일리 이슈</a>
-      <a href="https://chicstory.github.io/metals/" class="tpl-nav-link"><i class="bi-graph-up-arrow"></i> 금속 원자재·스크랩</a>
-      <a href="https://chicstory.github.io/engines/hyundai_kia_engine_table.html" class="tpl-nav-link"><i class="bi-table"></i> 제조사별 스펙표</a>
-      <a href="https://chicstory.github.io/engines/" class="tpl-nav-link"><i class="bi-cpu"></i> 엔진 전수 백과</a>
-      <a href="https://chicstory.github.io/guide.html" class="tpl-nav-link"><i class="bi-compass"></i> 이용 가이드</a>
+      <a href="https://thapathlab.com/" class="tpl-nav-link"><i class="bi-house-door"></i> 포털 홈</a>
+      <a href="https://thapathlab.com/autoissue/" class="tpl-nav-link active"><i class="bi-bell-fill"></i> 자동차 데일리 이슈</a>
+      <a href="https://thapathlab.com/metals/" class="tpl-nav-link"><i class="bi-graph-up-arrow"></i> 금속 원자재·스크랩</a>
+      <a href="https://thapathlab.com/engines/hyundai_kia_engine_table.html" class="tpl-nav-link"><i class="bi-table"></i> 제조사별 스펙표</a>
+      <a href="https://thapathlab.com/engines/" class="tpl-nav-link"><i class="bi-cpu"></i> 엔진 전수 백과</a>
+      <a href="https://thapathlab.com/guide.html" class="tpl-nav-link"><i class="bi-compass"></i> 이용 가이드</a>
     </div>
 
     <div class="tpl-nav-actions">
@@ -934,35 +942,35 @@ footer {
     <!-- Section 1: Core Hubs -->
     <div class="tpl-drawer-group">
       <div class="tpl-drawer-group-title"><i class="bi-stars"></i> ThePathLab 네트워크</div>
-      <a href="https://chicstory.github.io/" class="tpl-drawer-item">
+      <a href="https://thapathlab.com/" class="tpl-drawer-item">
         <div class="tpl-drawer-icon icon-portal"><i class="bi-house-door"></i></div>
         <div class="tpl-drawer-item-text">
           <div class="tpl-drawer-item-title">ThePathLab 포털 메인</div>
           <div class="tpl-drawer-item-desc">통합 인텔리전스 허브 대시보드</div>
         </div>
       </a>
-      <a href="https://chicstory.github.io/autoissue/" class="tpl-drawer-item" style="border-color: rgba(244, 63, 94, 0.4); background: rgba(244, 63, 94, 0.08);">
+      <a href="https://thapathlab.com/autoissue/" class="tpl-drawer-item" style="border-color: rgba(244, 63, 94, 0.4); background: rgba(244, 63, 94, 0.08);">
         <div class="tpl-drawer-icon icon-autoissue"><i class="bi-bell-fill"></i></div>
         <div class="tpl-drawer-item-text">
           <div class="tpl-drawer-item-title" style="color: #fb7185;">자동차 데일리 이슈 허브</div>
           <div class="tpl-drawer-item-desc">자동차 제조사별 리콜 · 미국 NHTSA 선제 공고</div>
         </div>
       </a>
-      <a href="https://chicstory.github.io/metals/" class="tpl-drawer-item">
+      <a href="https://thapathlab.com/metals/" class="tpl-drawer-item">
         <div class="tpl-drawer-icon icon-metals"><i class="bi-graph-up-arrow"></i></div>
         <div class="tpl-drawer-item-text">
           <div class="tpl-drawer-item-title">9대 금속 원자재 & 스크랩 허브</div>
           <div class="tpl-drawer-item-desc">일일 시세 분석 · 1초 즉시 계산기</div>
         </div>
       </a>
-      <a href="https://chicstory.github.io/engines/hyundai_kia_engine_table.html" class="tpl-drawer-item">
+      <a href="https://thapathlab.com/engines/hyundai_kia_engine_table.html" class="tpl-drawer-item">
         <div class="tpl-drawer-icon" style="background: rgba(168, 85, 247, 0.15); color: #c084fc;"><i class="bi-table"></i></div>
         <div class="tpl-drawer-item-text">
           <div class="tpl-drawer-item-title">제조사별 전수 스펙표</div>
-          <div class="tpl-drawer-item-desc">6대 제조사 244종 엔진 스펙 전수 비교표</div>
+          <div class="tpl-drawer-item-desc">9대 제조사 260개 파워트레인 전수 비교표</div>
         </div>
       </a>
-      <a href="https://chicstory.github.io/engines/" class="tpl-drawer-item">
+      <a href="https://thapathlab.com/engines/" class="tpl-drawer-item">
         <div class="tpl-drawer-icon icon-engines"><i class="bi-cpu"></i></div>
         <div class="tpl-drawer-item-text">
           <div class="tpl-drawer-item-title">자동차 엔진 전수 백과사전</div>
@@ -975,12 +983,15 @@ footer {
     <div class="tpl-drawer-group">
       <div class="tpl-drawer-group-title"><i class="bi-table"></i> 제조사별 전수 스펙표 점프</div>
       <div class="tpl-drawer-chips">
-        <a href="https://chicstory.github.io/engines/hyundai_kia_engine_table.html" class="tpl-chip-link">현대·기아 (87종)</a>
-        <a href="https://chicstory.github.io/engines/bmw_engine_table.html" class="tpl-chip-link">BMW (45종)</a>
-        <a href="https://chicstory.github.io/engines/mercedes_benz_engine_table.html" class="tpl-chip-link">벤츠 (40종)</a>
-        <a href="https://chicstory.github.io/engines/audi_engine_table.html" class="tpl-chip-link">아우디 (32종)</a>
-        <a href="https://chicstory.github.io/engines/volkswagen_engine_table.html" class="tpl-chip-link">폭스바겐 (20종)</a>
-        <a href="https://chicstory.github.io/engines/kgm_ssangyong_engine_table.html" class="tpl-chip-link">KGM·쌍용 (20종)</a>
+        <a href="https://thapathlab.com/engines/hyundai_kia_engine_table.html" class="tpl-chip-link">현대·기아 (87종)</a>
+        <a href="https://thapathlab.com/engines/bmw_engine_table.html" class="tpl-chip-link">BMW (45종)</a>
+        <a href="https://thapathlab.com/engines/mercedes_benz_engine_table.html" class="tpl-chip-link">벤츠 (40종)</a>
+        <a href="https://thapathlab.com/engines/audi_engine_table.html" class="tpl-chip-link">아우디 (32종)</a>
+        <a href="https://thapathlab.com/engines/volkswagen_engine_table.html" class="tpl-chip-link">폭스바겐 (20종)</a>
+        <a href="https://thapathlab.com/engines/kgm_ssangyong_engine_table.html" class="tpl-chip-link">KGM·쌍용 (20종)</a>
+        <a href="https://thapathlab.com/engines/toyota_lexus_engine_table.html" class="tpl-chip-link">토요타·렉서스 (32종)</a>
+        <a href="https://thapathlab.com/engines/gm_chevrolet_engine_table.html" class="tpl-chip-link">GM·쉐보레 (20종)</a>
+        <a href="https://thapathlab.com/engines/renault_korea_engine_table.html" class="tpl-chip-link">르노코리아 (20종)</a>
       </div>
     </div>
 
