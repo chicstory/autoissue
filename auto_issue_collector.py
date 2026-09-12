@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 ThePathLab Auto Issue Collector & Pipeline Engine
-Fetches domestic (Korea MOLIT / RSS) and global (NHTSA / US RSS) automotive issues,
-deduplicates and merges them into data/issues.json, and produces KPI summary stats.
+Fetches:
+1. Domestic Official Recalls & Free Services directly from Korea MOLIT / TS Car Recall Center (car.go.kr)
+2. Domestic Automotive News (Google News RSS - 30 days window)
+3. Global NHTSA Defect & Recall Investigations (NHTSA / US RSS - 30 days window)
+
+Deduplicates and merges them into data/issues.json, and produces KPI summary stats.
 """
 
 import os
@@ -11,6 +15,7 @@ import re
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
+import ssl
 from datetime import datetime, timezone, timedelta
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -18,61 +23,66 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 ISSUES_FILE = os.path.join(DATA_DIR, "issues.json")
 STATS_FILE = os.path.join(DATA_DIR, "latest_stats.json")
 
-# 10 Major Manufacturer Groups
+# SSL Context for car.go.kr and external RSS
+SSL_CTX = ssl.create_default_context()
+SSL_CTX.check_hostname = False
+SSL_CTX.verify_mode = ssl.CERT_NONE
+
+# 13 Major Manufacturer Groups
 BRAND_CONFIG = {
     "hyundai_kia": {
         "name": "현대·기아 (제네시스)",
-        "keywords": ["현대차", "기아", "제네시스", "현대자동차", "Hyundai", "Kia", "Genesis"],
+        "keywords": ["현대차", "기아", "제네시스", "현대자동차", "기아자동차", "Hyundai", "Kia", "Genesis", "현대", "아이오닉", "EV6", "EV9"],
         "engine_table": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html"
     },
     "bmw_mini": {
         "name": "BMW · MINI",
-        "keywords": ["BMW", "MINI", "미니", "비엠더블유"],
+        "keywords": ["BMW", "MINI", "미니", "비엠더블유", "비엠더블유코리아"],
         "engine_table": "https://chicstory.github.io/engines/bmw_engine_table.html"
     },
     "mercedes": {
         "name": "메르세데스-벤츠",
-        "keywords": ["벤츠", "메르세데스", "Mercedes", "Benz"],
+        "keywords": ["벤츠", "메르세데스", "Mercedes", "Benz", "메르세데스벤츠", "메르세데스-벤츠"],
         "engine_table": "https://chicstory.github.io/engines/mercedes_benz_engine_table.html"
     },
     "vw_audi": {
         "name": "폭스바겐 · 아우디",
-        "keywords": ["폭스바겐", "아우디", "Volkswagen", "Audi", "VW"],
+        "keywords": ["폭스바겐", "아우디", "Volkswagen", "Audi", "VW", "아우디폭스바겐", "폭스바겐그룹"],
         "engine_table": "https://chicstory.github.io/engines/volkswagen_engine_table.html"
     },
     "kgm": {
         "name": "KGM (쌍용)",
-        "keywords": ["KGM", "쌍용", "KG모빌리티", "액티언", "토레스", "Ssangyong"],
+        "keywords": ["KGM", "쌍용", "KG모빌리티", "액티언", "토레스", "Ssangyong", "케이쥐모빌리티"],
         "engine_table": "https://chicstory.github.io/engines/kgm_ssangyong_engine_table.html"
     },
     "gm_chevy": {
         "name": "GM · 쉐보레",
-        "keywords": ["쉐보레", "GM", "한국GM", "캐딜락", "Chevrolet", "Cadillac", "트랙스"],
+        "keywords": ["쉐보레", "GM", "한국GM", "한국지엠", "지엠아시아", "캐딜락", "Chevrolet", "Cadillac", "트랙스", "지엠"],
         "engine_table": "https://chicstory.github.io/engines/"
     },
     "renault": {
         "name": "르노코리아",
-        "keywords": ["르노", "르노코리아", "Renault", "콜레오스", "아르카나"],
+        "keywords": ["르노", "르노코리아", "르노삼성", "Renault", "콜레오스", "아르카나"],
         "engine_table": "https://chicstory.github.io/engines/"
     },
     "toyota_lexus": {
         "name": "토요타 · 렉서스",
-        "keywords": ["토요타", "도요타", "렉서스", "Toyota", "Lexus", "캠리", "프리우스"],
+        "keywords": ["토요타", "도요타", "렉서스", "Toyota", "Lexus", "캠리", "프리우스", "한국토요타"],
         "engine_table": "https://chicstory.github.io/engines/"
     },
     "ford_lincoln": {
         "name": "포드 · 링컨",
-        "keywords": ["포드", "링컨", "Ford", "Lincoln", "익스플로러"],
+        "keywords": ["포드", "링컨", "Ford", "Lincoln", "익스플로러", "에프엘오토", "포드세일즈서비스코리아", "머스탱", "Mustang", "브롱코", "Bronco"],
         "engine_table": "https://chicstory.github.io/engines/"
     },
     "tesla_others": {
         "name": "테슬라 · 기타 수입차",
-        "keywords": ["테슬라", "Tesla", "볼보", "Volvo", "포르쉐", "Porsche", "폴스타"],
+        "keywords": ["테슬라", "Tesla", "볼보", "Volvo", "포르쉐", "Porsche", "폴스타", "Polestar", "재규어", "랜드로버", "재규어랜드로버", "스텔란티스", "지프", "Jeep", "혼다", "Honda", "푸조", "마세라티"],
         "engine_table": "https://chicstory.github.io/engines/"
     },
     "byd": {
         "name": "BYD (비야디)",
-        "keywords": ["BYD", "비야디", "씰", "아토3", "Atto", "돌핀", "Dolphin", "한EV", "탕EV", "비야디코리아"],
+        "keywords": ["BYD", "비야디", "비와이디", "씰", "아토3", "Atto", "돌핀", "Dolphin", "한EV", "탕EV", "비야디코리아"],
         "engine_table": "https://chicstory.github.io/engines/"
     },
     "rivian": {
@@ -85,6 +95,79 @@ BRAND_CONFIG = {
         "keywords": ["Lucid", "루시드", "Lucid Air", "Lucid Gravity", "루시드 에어"],
         "engine_table": "https://chicstory.github.io/engines/"
     }
+}
+
+# Domestic Importer / Manufacturer Official Korean Mapping
+MAKER_MAP = {
+    # 현대·기아
+    "현대": "hyundai_kia",
+    "기아": "hyundai_kia",
+    "제네시스": "hyundai_kia",
+    "현대자동차": "hyundai_kia",
+    "기아자동차": "hyundai_kia",
+    # BMW·MINI
+    "비엠더블유": "bmw_mini",
+    "비엠더블유코리아": "bmw_mini",
+    "미니": "bmw_mini",
+    # 메르세데스-벤츠
+    "메르세데스벤츠": "mercedes",
+    "메르세데스-벤츠": "mercedes",
+    "메르세데스벤츠코리아": "mercedes",
+    "벤츠": "mercedes",
+    # 폭스바겐·아우디
+    "아우디폭스바겐": "vw_audi",
+    "아우디폭스바겐코리아": "vw_audi",
+    "폭스바겐": "vw_audi",
+    "아우디": "vw_audi",
+    "폭스바겐그룹코리아": "vw_audi",
+    # KGM
+    "케이쥐모빌리티": "kgm",
+    "쌍용": "kgm",
+    "쌍용자동차": "kgm",
+    # GM·쉐보레
+    "한국지엠": "gm_chevy",
+    "지엠아시아": "gm_chevy",
+    "지엠": "gm_chevy",
+    "쉐보레": "gm_chevy",
+    "캐딜락": "gm_chevy",
+    # 르노코리아
+    "르노코리아": "renault",
+    "르노삼성": "renault",
+    "르노": "renault",
+    # 토요타·렉서스
+    "한국토요타": "toyota_lexus",
+    "토요타": "toyota_lexus",
+    "도요타": "toyota_lexus",
+    "렉서스": "toyota_lexus",
+    # 포드·링컨
+    "포드세일즈서비스코리아": "ford_lincoln",
+    "포드": "ford_lincoln",
+    "링컨": "ford_lincoln",
+    "에프엘오토": "ford_lincoln",
+    # BYD
+    "비와이디": "byd",
+    "비야디": "byd",
+    "비야디코리아": "byd",
+    # 테슬라·기타 수입차
+    "테슬라": "tesla_others",
+    "테슬라코리아": "tesla_others",
+    "볼보": "tesla_others",
+    "볼보자동차코리아": "tesla_others",
+    "폴스타": "tesla_others",
+    "폴스타오토모티브코리아": "tesla_others",
+    "포르쉐": "tesla_others",
+    "포르쉐코리아": "tesla_others",
+    "재규어랜드로버": "tesla_others",
+    "재규어랜드로버코리아": "tesla_others",
+    "스텔란티스": "tesla_others",
+    "스텔란티스코리아": "tesla_others",
+    "지프": "tesla_others",
+    "혼다": "tesla_others",
+    "혼다코리아": "tesla_others",
+    "한불모터스": "tesla_others",
+    "마세라티": "tesla_others",
+    "페라리": "tesla_others",
+    "람보르기니": "tesla_others"
 }
 
 def load_existing_issues():
@@ -100,8 +183,8 @@ def clean_html_tags(text):
     if not text:
         return ""
     clean = re.sub(r'<.*?>', '', text)
-    clean = clean.replace('&quot;', '"').replace('&apos;', "'").replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
-    return clean.strip()
+    clean = clean.replace('&quot;', '"').replace('&apos;', "'").replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&#039;', "'")
+    return " ".join(clean.split())
 
 def detect_brand(text):
     for b_id, b_info in BRAND_CONFIG.items():
@@ -116,16 +199,135 @@ def detect_category(title, snippet=""):
         return "recall", "🚨 리콜 공고"
     if any(k in combined for k in ["무상수리", "service campaign", "캠페인", "소프트웨어 업데이트", "ota", "개선"]):
         return "service", "🔧 무상수리·OTA"
-    if any(k in combined for k in ["전기차", "ev", "배터리", "충전", "fsd", "자율주행"]):
+    if any(k in combined for k in ["전기차", "ev", "배터리", "충전", "fsd", "자율주행", "bms", "iccu"]):
         return "tech_ev", "⚡ 전기차·배터리"
     if any(k in combined for k in ["신차", "출시", "공개", "페이스리프트", "풀체인지", "하이브리드", "launch", "debut"]):
         return "newcar", "🚗 신차·출시"
     return "industry", "📰 업계·테크 이슈"
 
+def detect_powertrain_tags(title, text=""):
+    comb = (title + " " + text).lower()
+    tags = []
+    if any(k in comb for k in ["배터리", "bms", "iccu", "고전압", "충전", "인버터", "pe"]):
+        tags.append("전기차 고전압·배터리 제어")
+    if any(k in comb for k in ["추진축", "샤프트", "변속기", "트랜스퍼", "디퍼렌셜", "드라이브"]):
+        tags.append("구동계·동력전달계 (Drivetrain)")
+    if any(k in comb for k in ["엔진", "연료펌프", "인젝터", "점화", "오일"]):
+        tags.append("엔진 및 연료 공급계통")
+    if any(k in comb for k in ["제동", "브레이크", "abs", "esp", "조향", "스티어링"]):
+        tags.append("섀시·제동·조향 계통")
+    if any(k in comb for k in ["소프트웨어", "ecu", "bcm", "ota", "edr", "카메라", "센서"]):
+        tags.append("전장·전자제어·소프트웨어")
+    if not tags:
+        tags.append("파워트레인 및 주요 전장계통")
+    return tags
+
+def fetch_cargokr_issues(endpoint_type="recall", days_back=35):
+    """
+    Directly scrapes official notices from Korea TS Car Recall Center (car.go.kr).
+    endpoint_type: 'recall' (/ri/stat/list.do) or 'service' (/ri/grts/list.do)
+    """
+    url = "https://www.car.go.kr/ri/stat/list.do" if endpoint_type == "recall" else "https://www.car.go.kr/ri/grts/list.do"
+    category = "recall" if endpoint_type == "recall" else "service"
+    cat_label = "🚨 리콜 공고" if endpoint_type == "recall" else "🔧 무상수리·OTA"
+    origin_label = "국토부 공식 리콜" if endpoint_type == "recall" else "국토부 공식 무상수리"
+    
+    cutoff_date = (datetime.now() - timedelta(days=days_back)).strftime("%Y-%m-%d")
+    items = []
+    
+    print(f"Fetching car.go.kr {endpoint_type.upper()} (cutoff: {cutoff_date})...")
+    
+    for page in range(1, 15):
+        data = urllib.parse.urlencode({'currentPageNo': page}).encode('utf-8')
+        req = urllib.request.Request(url, data=data, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=10, context=SSL_CTX) as r:
+                html = r.read().decode('utf-8', errors='replace')
+        except Exception as e:
+            print(f"car.go.kr {endpoint_type} page {page} fetch error: {e}")
+            break
+            
+        pattern = r'detailView\([\'\"](\d+)[\'\"].*?<strong>(.*?)</strong>.*?<li>(\d{4}-\d{2}-\d{2})</li>'
+        matches = re.findall(pattern, html, re.DOTALL)
+        if not matches:
+            break
+            
+        page_should_stop = False
+        for seq, raw_title, date_str in matches:
+            if date_str < cutoff_date:
+                page_should_stop = True
+                break
+                
+            clean_title = clean_html_tags(raw_title)
+            
+            # Extract maker from [대괄호]
+            maker_m = re.match(r'\[([^\]]+)\]\s*(.*)', clean_title)
+            if maker_m:
+                maker_tag = maker_m.group(1).strip()
+                content_part = maker_m.group(2).strip()
+            else:
+                maker_tag = ""
+                content_part = clean_title
+                
+            maker_clean = re.sub(r'[\s\(\)]', '', maker_tag)
+            brand_id = MAKER_MAP.get(maker_clean)
+            if not brand_id:
+                for k, v in MAKER_MAP.items():
+                    if k in maker_clean:
+                        brand_id = v
+                        break
+            if not brand_id:
+                brand_id, _ = detect_brand(clean_title)
+                
+            brand_name = BRAND_CONFIG[brand_id]["name"]
+            
+            # Split vehicle and defect cause
+            parts = content_part.split(' - ')
+            if len(parts) >= 2:
+                vehicle_part = parts[0].strip()
+                defect_part = " - ".join(parts[1:]).strip()
+            else:
+                vehicle_part = content_part
+                defect_part = content_part
+                
+            p_tags = detect_powertrain_tags(content_part, defect_part)
+            
+            items.append({
+                "id": f"cargokr-{endpoint_type[:2]}-{seq}",
+                "date": date_str,
+                "brand_id": brand_id,
+                "brand_name": brand_name,
+                "category": category,
+                "category_label": cat_label,
+                "origin": "domestic",
+                "origin_label": origin_label,
+                "title": f"[{maker_tag}] {content_part}" if maker_tag else content_part,
+                "vehicles": [vehicle_part],
+                "powertrain_tags": p_tags,
+                "engine_link": BRAND_CONFIG[brand_id]["engine_table"],
+                "summary": f"한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: {vehicle_part} | 주요 조치: {defect_part}",
+                "details": {
+                    "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+                    "production_period": "세부 차종별 생산 기간 상이",
+                    "defect_cause": defect_part,
+                    "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+                },
+                "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+                "source_url": url
+            })
+            
+        if page_should_stop:
+            break
+            
+    print(f"Retrieved {len(items)} items from car.go.kr {endpoint_type}.")
+    return items
+
 def fetch_rss(url, timeout=7):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as response:
             return response.read()
     except Exception as e:
         print(f"RSS fetch skipped for {url[:50]}...: {e}")
@@ -133,13 +335,13 @@ def fetch_rss(url, timeout=7):
 
 def collect_korean_news():
     queries = [
-        "자동차 리콜 when:7d",
-        "국토부 리콜 when:7d",
-        "자동차 무상수리 when:7d",
-        "현대차 기아 신차 when:7d",
-        "수입차 결함 리콜 when:7d",
-        "BYD 비야디 리콜 결함 when:7d",
-        "BYD 비야디 신차 출시 when:7d"
+        "자동차 리콜 when:30d",
+        "국토부 리콜 when:30d",
+        "자동차 무상수리 when:30d",
+        "현대차 기아 신차 when:30d",
+        "수입차 결함 리콜 when:30d",
+        "BYD 비야디 리콜 결함 when:30d",
+        "BYD 비야디 신차 출시 when:30d"
     ]
     items = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -152,16 +354,14 @@ def collect_korean_news():
             continue
         try:
             root = ET.fromstring(xml_data)
-            for item in root.findall(".//item")[:5]:
+            for item in root.findall(".//item")[:6]:
                 title = clean_html_tags(item.findtext("title", ""))
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
                 
-                # Simple date formatting
                 date_str = today_str
                 if pub_date:
                     try:
-                        # e.g. Mon, 08 Sep 2026 05:12:00 GMT
                         dt = datetime.strptime(pub_date[:16], "%a, %d %b %Y")
                         date_str = dt.strftime("%Y-%m-%d")
                     except:
@@ -170,7 +370,6 @@ def collect_korean_news():
                 brand_id, brand_name = detect_brand(title)
                 cat_id, cat_label = detect_category(title)
                 
-                # Skip trivial non-auto matches
                 if not any(k in title for k in ["차", "차량", "모빌리티", "엔진", "모터", "기아", "현대", "BMW", "벤츠", "리콜", "아우디", "폭스바겐", "KGM", "쉐보레", "토요타", "포드", "테슬라", "BYD", "비야디"]):
                     continue
 
@@ -182,10 +381,10 @@ def collect_korean_news():
                     "category": cat_id,
                     "category_label": cat_label,
                     "origin": "domestic",
-                    "origin_label": "국내 공식 공고",
+                    "origin_label": "국내 공식 공고 & 언론",
                     "title": title,
                     "vehicles": [brand_name.split()[0]],
-                    "powertrain_tags": ["주요 파워트레인"],
+                    "powertrain_tags": detect_powertrain_tags(title),
                     "engine_link": BRAND_CONFIG[brand_id]["engine_table"],
                     "summary": f"{title} 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
                     "details": {
@@ -203,16 +402,16 @@ def collect_korean_news():
 
 def collect_global_nhtsa_news():
     queries = [
-        "NHTSA recall Hyundai Kia when:7d",
-        "NHTSA recall BMW when:7d",
-        "NHTSA recall Mercedes when:7d",
-        "NHTSA recall Toyota Ford when:7d",
-        "NHTSA safety recall defect when:7d",
-        "NHTSA recall BYD when:7d",
-        "NHTSA recall Rivian when:7d",
-        "Rivian recall defect investigation when:7d",
-        "NHTSA recall Lucid when:7d",
-        "Lucid Motors recall defect when:7d"
+        "NHTSA recall Hyundai Kia when:30d",
+        "NHTSA recall BMW when:30d",
+        "NHTSA recall Mercedes when:30d",
+        "NHTSA recall Toyota Ford when:30d",
+        "NHTSA safety recall defect when:30d",
+        "NHTSA recall BYD when:30d",
+        "NHTSA recall Rivian when:30d",
+        "Rivian recall defect investigation when:30d",
+        "NHTSA recall Lucid when:30d",
+        "Lucid Motors recall defect when:30d"
     ]
     items = []
     today_str = datetime.now().strftime("%Y-%m-%d")
@@ -225,7 +424,7 @@ def collect_global_nhtsa_news():
             continue
         try:
             root = ET.fromstring(xml_data)
-            for item in root.findall(".//item")[:4]:
+            for item in root.findall(".//item")[:5]:
                 title = clean_html_tags(item.findtext("title", ""))
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
@@ -241,7 +440,6 @@ def collect_global_nhtsa_news():
                 brand_id, brand_name = detect_brand(title)
                 cat_id, cat_label = detect_category(title)
                 
-                # Check for recall keywords
                 if "recall" not in title.lower() and "defect" not in title.lower() and "investigation" not in title.lower():
                     continue
 
@@ -256,7 +454,7 @@ def collect_global_nhtsa_news():
                     "origin_label": "해외 선제 공고 (NHTSA 🌐)",
                     "title": f"[해외 선제공고] {title}",
                     "vehicles": [brand_name.split()[0]],
-                    "powertrain_tags": ["북미/글로벌 탑재 파워트레인"],
+                    "powertrain_tags": detect_powertrain_tags(title),
                     "engine_link": BRAND_CONFIG[brand_id]["engine_table"],
                     "summary": f"미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
                     "details": {
@@ -275,30 +473,36 @@ def collect_global_nhtsa_news():
 def update_pipeline():
     os.makedirs(DATA_DIR, exist_ok=True)
     existing = load_existing_issues()
-    existing_titles = {item.get("title", "").strip().lower() for item in existing}
+    existing_titles = {re.sub(r'[^가-힣a-zA-Z0-9]', '', item.get("title", "").lower()) for item in existing}
     
     print(f"Existing curated issues: {len(existing)}")
     
-    # Collect fresh news
-    kr_items = collect_korean_news()
-    print(f"Collected domestic items: {len(kr_items)}")
+    # 1. Official TS Car Recall Center (Direct Scrape)
+    cargokr_recalls = fetch_cargokr_issues("recall", days_back=40)
+    cargokr_services = fetch_cargokr_issues("service", days_back=40)
     
+    # 2. Domestic News RSS (30 days)
+    kr_items = collect_korean_news()
+    print(f"Collected domestic news items: {len(kr_items)}")
+    
+    # 3. Global NHTSA RSS (30 days)
     global_items = collect_global_nhtsa_news()
     print(f"Collected global NHTSA items: {len(global_items)}")
     
     new_added = 0
-    for it in (kr_items + global_items):
-        t_clean = it["title"].strip().lower()
-        if t_clean not in existing_titles:
+    # Prioritize official car.go.kr items first
+    for it in (cargokr_recalls + cargokr_services + kr_items + global_items):
+        t_key = re.sub(r'[^가-힣a-zA-Z0-9]', '', it["title"].lower())
+        if t_key and t_key not in existing_titles:
             existing.append(it)
-            existing_titles.add(t_clean)
+            existing_titles.add(t_key)
             new_added += 1
 
     # Sort descending by date
     existing.sort(key=lambda x: x.get("date", "2000-01-01"), reverse=True)
     
-    # Keep top 500 issues for long-term weekly accumulation
-    final_issues = existing[:500]
+    # Keep up to 800 issues for rich historical accumulation
+    final_issues = existing[:800]
     
     with open(ISSUES_FILE, 'w', encoding='utf-8') as f:
         json.dump(final_issues, f, ensure_ascii=False, indent=2)
