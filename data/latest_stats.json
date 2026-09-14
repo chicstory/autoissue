@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-14 11:20",
-  "total_count": 251,
-  "recall_count": 138,
-  "newcar_count": 18,
-  "service_count": 63,
-  "global_count": 70,
+  "last_updated": "2026-09-14 18:41",
+  "total_count": 206,
+  "recall_count": 110,
+  "newcar_count": 17,
+  "service_count": 57,
+  "global_count": 57,
   "brands_count": 13,
   "ev_new_brands": [
     "byd",

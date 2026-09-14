@@ -32,68 +32,88 @@ SSL_CTX.verify_mode = ssl.CERT_NONE
 BRAND_CONFIG = {
     "hyundai_kia": {
         "name": "현대·기아 (제네시스)",
-        "keywords": ["현대차", "기아", "제네시스", "현대자동차", "기아자동차", "Hyundai", "Kia", "Genesis", "현대", "아이오닉", "EV6", "EV9"],
-        "engine_table": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html"
+        "keywords": [
+            "현대차", "기아", "제네시스", "현대자동차", "기아자동차", "Hyundai", "Kia", "Genesis", "현대",
+            "아이오닉", "EV6", "EV9", "스타리아", "아반떼", "쏘나타", "그랜저", "투싼", "싼타페",
+            "팰리세이드", "스포티지", "쏘렌토", "카니발", "K3", "K5", "K8", "K9", "셀토스", "니로",
+            "모닝", "레이", "코나", "베뉴", "G70", "G80", "G90", "GV60", "GV70", "GV80", "캐스퍼"
+        ],
+        "engine_table": "https://thapathlab.com/engines/hyundai_kia_engine_table.html"
     },
     "bmw_mini": {
         "name": "BMW · MINI",
         "keywords": ["BMW", "MINI", "미니", "비엠더블유", "비엠더블유코리아"],
-        "engine_table": "https://chicstory.github.io/engines/bmw_engine_table.html"
+        "engine_table": "https://thapathlab.com/engines/bmw_engine_table.html"
     },
     "mercedes": {
         "name": "메르세데스-벤츠",
         "keywords": ["벤츠", "메르세데스", "Mercedes", "Benz", "메르세데스벤츠", "메르세데스-벤츠"],
-        "engine_table": "https://chicstory.github.io/engines/mercedes_benz_engine_table.html"
+        "engine_table": "https://thapathlab.com/engines/mercedes_benz_engine_table.html"
     },
     "vw_audi": {
         "name": "폭스바겐 · 아우디",
         "keywords": ["폭스바겐", "아우디", "Volkswagen", "Audi", "VW", "아우디폭스바겐", "폭스바겐그룹"],
-        "engine_table": "https://chicstory.github.io/engines/volkswagen_engine_table.html"
+        "engine_table": "https://thapathlab.com/engines/volkswagen_engine_table.html"
     },
     "kgm": {
         "name": "KGM (쌍용)",
-        "keywords": ["KGM", "쌍용", "KG모빌리티", "액티언", "토레스", "Ssangyong", "케이쥐모빌리티"],
-        "engine_table": "https://chicstory.github.io/engines/kgm_ssangyong_engine_table.html"
+        "keywords": ["KGM", "쌍용", "KG모빌리티", "액티언", "토레스", "Ssangyong", "케이쥐모빌리티", "렉스턴", "티볼리", "코란도"],
+        "engine_table": "https://thapathlab.com/engines/kgm_ssangyong_engine_table.html"
     },
     "gm_chevy": {
         "name": "GM · 쉐보레",
-        "keywords": ["쉐보레", "GM", "한국GM", "한국지엠", "지엠아시아", "캐딜락", "Chevrolet", "Cadillac", "트랙스", "지엠"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": ["쉐보레", "GM", "한국GM", "한국지엠", "지엠아시아", "캐딜락", "Chevrolet", "Cadillac", "트랙스", "트레일블레이저", "콜로라도", "타호", "말리부", "이쿼녹스", "볼트EV"],
+        "engine_table": "https://thapathlab.com/engines/chevrolet_engine_table.html"
     },
     "renault": {
         "name": "르노코리아",
-        "keywords": ["르노", "르노코리아", "르노삼성", "Renault", "콜레오스", "아르카나"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": ["르노", "르노코리아", "르노삼성", "Renault", "콜레오스", "아르카나", "그랑 콜레오스", "SM6", "QM6", "클리오", "조에"],
+        "engine_table": "https://thapathlab.com/engines/renault_engine_table.html"
     },
     "toyota_lexus": {
         "name": "토요타 · 렉서스",
-        "keywords": ["토요타", "도요타", "렉서스", "Toyota", "Lexus", "캠리", "프리우스", "한국토요타"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": ["토요타", "도요타", "렉서스", "Toyota", "Lexus", "캠리", "프리우스", "한국토요타", "라브4", "RAV4", "Crown", "크라운", "시에나", "하이랜더", "ES300h", "RX", "NX"],
+        "engine_table": "https://thapathlab.com/engines/toyota_engine_table.html"
     },
     "ford_lincoln": {
         "name": "포드 · 링컨",
-        "keywords": ["포드", "링컨", "Ford", "Lincoln", "익스플로러", "에프엘오토", "포드세일즈서비스코리아", "머스탱", "Mustang", "브롱코", "Bronco"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": [
+            "포드", "링컨", "Ford", "Lincoln", "익스플로러", "Explorer", "에프엘오토", "애프엘오토",
+            "포드세일즈서비스코리아", "머스탱", "Mustang", "브롱코", "Bronco", "Corsair", "코세어",
+            "에비에이터", "노틸러스", "네비게이터"
+        ],
+        "engine_table": "https://thapathlab.com/engines/ford_engine_table.html"
     },
     "tesla_others": {
         "name": "테슬라 · 기타 수입차",
-        "keywords": ["테슬라", "Tesla", "볼보", "Volvo", "포르쉐", "Porsche", "폴스타", "Polestar", "재규어", "랜드로버", "재규어랜드로버", "스텔란티스", "지프", "Jeep", "혼다", "Honda", "푸조", "마세라티"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": [
+            "테슬라", "Tesla", "Cybertruck", "사이버트럭", "모델3", "모델Y", "모델S", "모델X",
+            "Model 3", "Model Y", "Model S", "Model X", "볼보", "Volvo", "포르쉐", "Porsche",
+            "타이칸", "카이엔", "마칸", "911", "파나메라", "폴스타", "Polestar", "재규어", "랜드로버",
+            "Jaguar", "Land Rover", "레인지로버", "디펜더", "스텔란티스", "Stellantis", "지프",
+            "Jeep", "랭글러", "그랜드체로키", "혼다", "Honda", "어코드", "CR-V", "푸조", "Peugeot",
+            "마세라티", "Maserati", "페라리", "Ferrari", "람보르기니", "Lamborghini", "크라이슬러",
+            "Chrysler", "닷지", "Dodge", "램", "Ram", "차봇모터스", "로터스", "Lotus", "Emira", "에미라"
+        ],
+        "engine_table": "https://thapathlab.com/engines/"
     },
     "byd": {
         "name": "BYD (비야디)",
-        "keywords": ["BYD", "비야디", "비와이디", "씰", "아토3", "Atto", "돌핀", "Dolphin", "한EV", "탕EV", "비야디코리아"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": [
+            "BYD", "비야디", "비와이디", "씰", "Seal", "아토3", "Atto", "돌핀", "Dolphin",
+            "한EV", "Han EV", "탕EV", "Tang EV", "비야디코리아", "양왕", "U8", "U9", "씨라이언"
+        ],
+        "engine_table": "https://thapathlab.com/engines/"
     },
     "rivian": {
         "name": "Rivian",
         "keywords": ["Rivian", "리비안", "R1T", "R1S", "R2", "R3"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "engine_table": "https://thapathlab.com/engines/"
     },
     "lucid": {
         "name": "Lucid Motors",
-        "keywords": ["Lucid", "루시드", "Lucid Air", "Lucid Gravity", "루시드 에어"],
-        "engine_table": "https://chicstory.github.io/engines/"
+        "keywords": ["Lucid", "루시드", "Lucid Air", "Lucid Gravity", "루시드 에어", "루시드 그래비티"],
+        "engine_table": "https://thapathlab.com/engines/"
     }
 }
 
@@ -144,6 +164,7 @@ MAKER_MAP = {
     "포드": "ford_lincoln",
     "링컨": "ford_lincoln",
     "에프엘오토": "ford_lincoln",
+    "애프엘오토": "ford_lincoln",
     # BYD
     "비와이디": "byd",
     "비야디": "byd",
@@ -162,13 +183,44 @@ MAKER_MAP = {
     "스텔란티스": "tesla_others",
     "스텔란티스코리아": "tesla_others",
     "지프": "tesla_others",
+    "크라이슬러": "tesla_others",
     "혼다": "tesla_others",
     "혼다코리아": "tesla_others",
     "한불모터스": "tesla_others",
     "마세라티": "tesla_others",
     "페라리": "tesla_others",
-    "람보르기니": "tesla_others"
+    "람보르기니": "tesla_others",
+    "차봇모터스": "tesla_others",
+    "로터스": "tesla_others",
+    "로터스카스": "tesla_others",
+    "로터스코리아": "tesla_others"
 }
+
+# Strict Exclusion Filter for non-passenger automotive products
+EXCLUDE_KEYWORDS = [
+    # Two-wheelers / Motorcycles / Scooters
+    "오토바이", "이륜차", "이륜자동차", "모터사이클", "스쿠터", "모토라드", "바이크", "한솜", "한솜바이크", "kr모터스",
+    "케이알모터스", "대림오토바이", "대림모터사이클", "두카티", "할리데이비슨", "할리", "야마하", "가와사키",
+    "피아지오", "베스파", "로얄엔필드", "인디언모터사이클", "화창상사", "대전기계공업", "기흥모터스", "모토로싸",
+    "이오모터스", "전동스쿠터", "전동킥보드", "전기자전거", "자전거", "motorcycle", "motorbike", "scooter",
+    # Heavy Commercial Vehicles / Construction / Specialty Equipment
+    "만트럭", "만트럭버스코리아", "스카니아", "이베코", "다임러트럭", "볼보트럭", "타타대우",
+    "타타대우상용차", "유니목", "덤프트럭", "콘크리트믹서트럭", "레미콘", "특장차", "캠핑트레일러",
+    "man truck", "iveco", "scania", "daimler truck",
+    # Non-target foreign micro-bus / specialized commercial builders
+    "킹롱", "킹롱이브이", "골든드래곤", "에스에이피", "리오네",
+    # Non-vehicle child seats / cosmetics / games / accessories / associations
+    "카시트", "유모차", "britax", "브라이텍스", "보조배터리", "미래모빌리티안전튜닝협회", "블루버드", "blue bird", "school bus"
+]
+
+def is_excluded(text):
+    if not text:
+        return False
+    t = text.lower()
+    for kw in EXCLUDE_KEYWORDS:
+        if kw.lower() in t:
+            return True
+    return False
 
 def load_existing_issues():
     if os.path.exists(ISSUES_FILE):
@@ -186,12 +238,13 @@ def clean_html_tags(text):
     clean = clean.replace('&quot;', '"').replace('&apos;', "'").replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&#039;', "'")
     return " ".join(clean.split())
 
-def detect_brand(text):
+def detect_brand(text, maker_tag=""):
+    comb = (text + " " + maker_tag).lower()
     for b_id, b_info in BRAND_CONFIG.items():
         for kw in b_info["keywords"]:
-            if kw.lower() in text.lower():
+            if kw.lower() in comb:
                 return b_id, b_info["name"]
-    return "hyundai_kia", "현대·기아 (제네시스)"
+    return None, None
 
 def detect_category(title, snippet=""):
     combined = (title + " " + snippet).lower()
@@ -270,8 +323,12 @@ def fetch_cargokr_issues(endpoint_type="recall", days_back=35):
             else:
                 maker_tag = ""
                 content_part = clean_title
+
+            # Strict exclusion filter for motorcycles, heavy trucks, child seats, etc.
+            if is_excluded(clean_title) or (maker_tag and is_excluded(maker_tag)):
+                continue
                 
-            maker_clean = re.sub(r'[\s\(\)]', '', maker_tag)
+            maker_clean = re.sub(r'[\s\(\)주식회사]', '', maker_tag)
             brand_id = MAKER_MAP.get(maker_clean)
             if not brand_id:
                 for k, v in MAKER_MAP.items():
@@ -279,7 +336,11 @@ def fetch_cargokr_issues(endpoint_type="recall", days_back=35):
                         brand_id = v
                         break
             if not brand_id:
-                brand_id, _ = detect_brand(clean_title)
+                brand_id, _ = detect_brand(clean_title, maker_tag)
+                
+            # If not one of our target 13 passenger automotive brands, SKIP!
+            if not brand_id:
+                continue
                 
             brand_name = BRAND_CONFIG[brand_id]["name"]
             
@@ -359,6 +420,14 @@ def collect_korean_news():
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
                 
+                # Exclude non-target vehicles/items first
+                if is_excluded(title):
+                    continue
+
+                brand_id, brand_name = detect_brand(title)
+                if not brand_id:
+                    continue
+
                 date_str = today_str
                 if pub_date:
                     try:
@@ -367,7 +436,6 @@ def collect_korean_news():
                     except:
                         date_str = today_str
                 
-                brand_id, brand_name = detect_brand(title)
                 cat_id, cat_label = detect_category(title)
                 
                 if not any(k in title for k in ["차", "차량", "모빌리티", "엔진", "모터", "기아", "현대", "BMW", "벤츠", "리콜", "아우디", "폭스바겐", "KGM", "쉐보레", "토요타", "포드", "테슬라", "BYD", "비야디"]):
@@ -429,6 +497,17 @@ def collect_global_nhtsa_news():
                 link = item.findtext("link", "")
                 pub_date = item.findtext("pubDate", "")
                 
+                # Exclude non-target items first
+                if is_excluded(title):
+                    continue
+
+                if "recall" not in title.lower() and "defect" not in title.lower() and "investigation" not in title.lower():
+                    continue
+
+                brand_id, brand_name = detect_brand(title)
+                if not brand_id:
+                    continue
+
                 date_str = today_str
                 if pub_date:
                     try:
@@ -437,11 +516,7 @@ def collect_global_nhtsa_news():
                     except:
                         date_str = today_str
 
-                brand_id, brand_name = detect_brand(title)
                 cat_id, cat_label = detect_category(title)
-                
-                if "recall" not in title.lower() and "defect" not in title.lower() and "investigation" not in title.lower():
-                    continue
 
                 items.append({
                     "id": f"nhtsa-{abs(hash(title)) % 1000000}",
