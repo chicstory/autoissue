@@ -1,5 +1,113 @@
 [
   {
+    "id": "cargokr-re-6380",
+    "date": "2026-09-14",
+    "brand_id": "mercedes",
+    "brand_name": "메르세데스-벤츠",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 리콜",
+    "title": "[벤츠] GLB 250 4MATIC 등 32차종 - 도어 마이크로 스위치 관련 리콜",
+    "vehicles": [
+      "GLB 250 4MATIC 등 32차종"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/mercedes_benz_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: GLB 250 4MATIC 등 32차종 | 주요 조치: 도어 마이크로 스위치 관련 리콜",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "도어 마이크로 스위치 관련 리콜",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/stat/list.do"
+  },
+  {
+    "id": "cargokr-re-6304",
+    "date": "2026-09-14",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 리콜",
+    "title": "[한솜바이크] BENNET125 - 방향지시등 관련 리콜",
+    "vehicles": [
+      "BENNET125"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: BENNET125 | 주요 조치: 방향지시등 관련 리콜",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "방향지시등 관련 리콜",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/stat/list.do"
+  },
+  {
+    "id": "cargokr-re-6299",
+    "date": "2026-09-14",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 리콜",
+    "title": "[킹롱이브이] 시티라이트１등 2차종 - 승강구 조작장치(외부/내부) 관련 리콜",
+    "vehicles": [
+      "시티라이트１등 2차종"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: 시티라이트１등 2차종 | 주요 조치: 승강구 조작장치(외부/내부) 관련 리콜",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "승강구 조작장치(외부/내부) 관련 리콜",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/stat/list.do"
+  },
+  {
+    "id": "kr-464547",
+    "date": "2026-09-13",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "tech_ev",
+    "category_label": "⚡ 전기차·배터리",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "광명 ‘전기차’, 화성 PBV⋯신차 맞춰 생산지형 바꾼다 [현대차·기아, 신차 로드맵] - v.daum.net",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "광명 ‘전기차’, 화성 PBV⋯신차 맞춰 생산지형 바꾼다 [현대차·기아, 신차 로드맵] - v.daum.net 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yM3pHb0tkU1J3dVA2VFpxdDVJdWVhdHNTVDNJR1pQSVN6NnBLV3ZGY055aHREOTlXcU1IVlh1RHZBUUJjTmRPX29tSnJxZzg?oc=5"
+  },
+  {
     "id": "kr-142096",
     "date": "2026-09-11",
     "brand_id": "ford_lincoln",
@@ -2590,6 +2698,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNVVBKYkRCb1hwbjdFZXdseEFFVG5QSGt4SDJTVGtEMWtrSHRXX0FFWjNkSVhXVENpNTZkUUxTRVdsNzBnaVFqTEpNWGNsYkVSRHAwUk9SeGpmSTJBcGtaYTdHZ05NRWZ1NV9V?oc=5"
   },
   {
+    "id": "kr-929240",
+    "date": "2026-09-03",
+    "brand_id": "ford_lincoln",
+    "brand_name": "포드 · 링컨",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "주행 중 시동 꺼지는 포드 머스탱…14만대 무상 수리 - 초이스스탁US",
+    "vehicles": [
+      "포드"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "주행 중 시동 꺼지는 포드 머스탱…14만대 무상 수리 - 초이스스탁US 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJT3JISlppWnRDd0I3eTRXd2VUamxadC01NVBIS2JSTDFLWkU4OEZQLW05Z0FqMlowV2FnUE9xUXhBWi1WT3hPZlBRQzl0dEUwWXF0YXNpalZsUC1VVXk1Rjln?oc=5"
+  },
+  {
     "id": "iss-2026-09-09",
     "date": "2026-09-02",
     "brand_id": "renault",
@@ -3027,6 +3162,87 @@
     "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13WVJ1WFVXNHlCRVRwanp0NzkxYmN5SlYtZkg4RktnUmtFVjF6V2JBM3NyblROWDFRR0dCVGlfTWlLTjkxcHYtM3dEVl80bkptVWctSDRZeUdtemRZVmRTRzFPOUQwY1dvNXVlQ0lqa2gtQXc?oc=5"
   },
   {
+    "id": "kr-918615",
+    "date": "2026-09-01",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "newcar",
+    "category_label": "🚗 신차·출시",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "파업 불확실성 털어낸 현대차·기아⋯신차·전동화 앞세워 하반기 반격 - 이투데이",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "파업 불확실성 털어낸 현대차·기아⋯신차·전동화 앞세워 하반기 반격 - 이투데이 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sMXd4SC1ydmdPaWtMZGJYMmRHSGZDalRKNmI1VGhoNEVxczdsRHRoX0VVUEppczh6ak9yREx5X0RoZEZCakl4RE5ZWkhkUTJ3SVBVNQ?oc=5"
+  },
+  {
+    "id": "nhtsa-740591",
+    "date": "2026-09-01",
+    "brand_id": "ford_lincoln",
+    "brand_name": "포드 · 링컨",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Ford recalls nearly 149,000 Mustang vehicles over \"loss of drive power\" risk - CBS News",
+    "vehicles": [
+      "포드"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13WVJ1WFVXNHlCRVRwanp0NzkxYmN5SlYtZkg4RktnUmtFVjF6V2JBM3NyblROWDFRR0dCVGlfTWlLTjkxcHYtM3dEVl80bkptVWctSDRZeUdtemRZVmRTRzFPOUQwY1dvNXVlQ0lqa2gtQXc?oc=5"
+  },
+  {
+    "id": "nhtsa-131743",
+    "date": "2026-09-01",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Recalls You Need to Know About in August 2026 - worktruckonline.com",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT1hRT3Q2TWx2UjlRSVZROGw1dlItVGxUak1HLU9WLWo3bUdMWThnNnN1d2ZIeXhPR1NXLWVnQXN3ZlA2dEl6UG50eDRKUXNEdkdDMnN6aTRoYnhmV3plcF9Ta1hNeXB1aVZtX0daOFhaQk5ZaW1SZ3Bjb1dSMm8ta0NsUVl4NG12MFRwSzFn?oc=5"
+  },
+  {
     "id": "iss-2026-08-31",
     "date": "2026-08-31",
     "brand_id": "tesla_others",
@@ -3216,6 +3432,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWTGlGT1l6SHVCMjdPQmhiUlVJVGhpcWV0VTFsYW9fc2YtYzRtMjYzSU9hbE5COVZyT3o5TXVZUU9fcFNqZ2RuOUgwcmdzak00UWRmQlNKbmtxeWdPVWo3YUtteFM1MUppUjNRdEF6TjA?oc=5"
+  },
+  {
+    "id": "nhtsa-538235",
+    "date": "2026-08-31",
+    "brand_id": "lucid",
+    "brand_name": "Lucid Motors",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Lucid Recalls 27,185 Air Sedans Over Lighting Fire Risk, Owners Urged To Park Outside - autoevolution",
+    "vehicles": [
+      "Lucid"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZVhrMGlFMmQwRUpySUNCUGhoZVJ0SHk2ZjIzNDFzdFJ1LXdneGtNcmtqUU1pZkVPaEFYbEVtMjVnaXlzLUZKc3J1bEZJRWY5cnZiMW5tM21pNjhxV0VycDVvVzNmWWdLUVUwRGdIU2Y5akF2bmpyd1lQVmVMTlZmLUNYOHhGUXZhdnNCenZ5MVNSTnZHb1dWTjRxZ0UyS2g0X1JpbWxDaDJmT2pUd2xTMm9pNTdMS0wtSHA0MXdkVTRNYlRZamwzZDZn?oc=5"
   },
   {
     "id": "kr-27826",
@@ -3594,6 +3837,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90UkNkUWd0T1JxWE1uc0pQWkJrcXZEbTVSQW9GeHdjcE9yUmVmbFVoYVpCOUVlV0VWcEVVZEdzdlluY1I5UnNoUWhhVzVvMnBxTXZERjdkTWZib0xUaS0wcUZrcmpUWHA0dUNRaTd2WQ?oc=5"
+  },
+  {
+    "id": "nhtsa-371131",
+    "date": "2026-08-28",
+    "brand_id": "lucid",
+    "brand_name": "Lucid Motors",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Lucid Recalls Over 27,000 Vehicles, Issues \"Park Outside\" Order - Kelley Blue Book",
+    "vehicles": [
+      "Lucid"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdGUzMGNGdUdHS3dfejhJQkM5OENGeG1pc09rd0tmMjVGR2IwVnZUZ1dBUzJUa3BYUmk0SFBzZmtqWGhuOC1YOExLV3Y0UDZsMFNVellFcVh1dnd3clZQc2tmU2p3bHZqb0RYUnd4T3c4RGRSM1pQVWp0NVNHb3AwalJqWG0wM2tLajBhYXR0RWxkUjQ?oc=5"
   },
   {
     "id": "kr-844093",
@@ -4247,6 +4517,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoSThqRE9ndFZ2NU5ZLTFDMl84bGxvUVJjRzNTQjNZOFRxSmphb3hrOVpqYkJhbkJmOGxwZDY4SmpiQXpxNk9jMThvMVZvZk1HaFBhTEowZnFhRnE5cF9aUDdqeC1XSVlaUEdYXzVfM1NwQXJNSTZqajhGbw?oc=5"
   },
   {
+    "id": "kr-899404",
+    "date": "2026-08-24",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "충전 9분 만에 '펑'…2명 숨진 전기스쿠터, 리콜 앞두고 제조사 '연락 두절' - 네이트",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "전기차 고전압·배터리 제어"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "충전 9분 만에 '펑'…2명 숨진 전기스쿠터, 리콜 앞두고 제조사 '연락 두절' - 네이트 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51WTRFMTN2QVJPdktxbTFzZ09MbjRCblRkSmlRcGJqSGx6QjIyTHB5dWxmWEktMk84blhqMk5lTWl3R1dWakVDMG9fa3I3X1B0dnF3?oc=5"
+  },
+  {
     "id": "cargokr-re-6360",
     "date": "2026-08-22",
     "brand_id": "hyundai_kia",
@@ -4434,6 +4731,60 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yYmxqa2xoN3pMUkh1dXVnUU1ma0M4WTBORWVwa0lpQ3JVaFpDQTMwNU1SVXJqamdMUjdEcWF0LUZJY2pQV3JLclZqeVNnQ0dQcE9zZXhVMDNrYk55SkRKeHRMUzhfS1piQ3hB?oc=5"
+  },
+  {
+    "id": "kr-457023",
+    "date": "2026-08-22",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "테슬라, 중국서 3백만대 대규모 리콜…“사고 때 탈출 쉽도록” - KBS 뉴스",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "테슬라, 중국서 3백만대 대규모 리콜…“사고 때 탈출 쉽도록” - KBS 뉴스 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NaHVMMHpIeGxaemg2Vk8wSXgtOS00cFRBaHp6Wmc3WFhaTXI2VG04dXFrLVI2dS1UWjRFMmMyLVdCT1NCTFRPRmRiTEtDYk1HX0RNMDM3NTNmODA?oc=5"
+  },
+  {
+    "id": "kr-165775",
+    "date": "2026-08-22",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "中 테슬라 300만대 무더기 리콜…매립형 손잡이 결국 손본다 - v.daum.net",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "中 테슬라 300만대 무더기 리콜…매립형 손잡이 결국 손본다 - v.daum.net 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlMVRtV2J1T3dCc3RqYmZOaDNCeWdwazZPaFRqN3RXM0xESWxQMExaZ2NSTm8yTlhUUWdRaFZOcEF4MkR2VzQ0eE9IcVpadlR2NVNHeA?oc=5"
   },
   {
     "id": "nhtsa-958613",
@@ -4651,6 +5002,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSFZrZ2lUcXdEYklFWV9tTTZMYVJYSjVjVTd2SUVuckcyZ1NYbGlucXhTT2tZZXMzQWNOSlJUeGdJcDJUSmpGRG9IUFRDUHNsdVNHNEVhM3BnckRpR1l6cEFlWG1RX2IyeElKNmpod3BPNGhyTzZ0d2M4SFkwS2lRLVhNUTdaNWFxMjJDVFdWeGJJczhQb3A5Skt6LU9MckVSblF3VEJTd2tsempZQjdfbTlaV3JDZlh1d0ZUVmdHN3BCQXlfTlJLeGNubTRkSHdUUlFNNzlkcnE2c0xmN2c?oc=5"
+  },
+  {
+    "id": "nhtsa-151768",
+    "date": "2026-08-21",
+    "brand_id": "gm_chevy",
+    "brand_name": "GM · 쉐보레",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] NHTSA expands GM engine recall probe to include more model years - Yahoo Autos",
+    "vehicles": [
+      "GM"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQjFyVDJzM2dTb08yZk4yLWxIcVpPZ19SSmg3VndVT21kelBGemM3V0pDZlNYSlVVMkJpYmVBSkFPUG85QXF2MnB0N0U1NmVMX2dSY1NfQWYwY3huUkhqZ25XS0xxTGM1NUhRN1VhMDlIODljVkprMEh3R2R4ZWdxQXUybDhZMXlPUk5BWlctMHN0UVlLQmNheklzbXgwUQ?oc=5"
   },
   {
     "id": "nhtsa-566054",
@@ -4977,6 +5355,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGWXRwa2lqOXR1TmtHUUxUMDlLM3dlTkh4OHFJd1hLbk1TSVEtUGh3OXBlTVRvaVZyVnJrdldMUU16T2FsQktPY2dBUmRZT2NneWdSai1tY3MyWVNLbHhKc01rTFJtTGFaRUFseTRhUQ?oc=5"
   },
   {
+    "id": "kr-155393",
+    "date": "2026-08-19",
+    "brand_id": "mercedes",
+    "brand_name": "메르세데스-벤츠",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "해외선 ‘셀 결함’ 리콜한 벤츠, 한국은 '외면'…시장 차별에 불만 '급증' - newstopkorea.com",
+    "vehicles": [
+      "메르세데스-벤츠"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/mercedes_benz_engine_table.html",
+    "summary": "해외선 ‘셀 결함’ 리콜한 벤츠, 한국은 '외면'…시장 차별에 불만 '급증' - newstopkorea.com 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGWXRwa2lqOXR1TmtHUUxUMDlLM3dlTkh4OHFJd1hLbk1TSVEtUGh3OXBlTVRvaVZyVnJrdldMUU16T2FsQktPY2dBUmRZT2NneWdSai1tY3MyWVNLbHhKc01rTFJtTGFaRUFseTRhUQ?oc=5"
+  },
+  {
     "id": "nhtsa-970502",
     "date": "2026-08-17",
     "brand_id": "toyota_lexus",
@@ -5056,6 +5461,60 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6OHpDczlYYlUtRGJ4R0tBaU5xRWlkS0pLVUM1cmg5Yi1SbW8taWtrVkpkWFBSbjdyQTlnSERhYjUwWTlkLWNUaFZycWRHRnctSWltMm5VUmxuOTlDVVNoSURyRjXSAWhBVV95cUxQU3RWMDJscUpFVGhsN3RqTENGVm0xZXNuS0x3MFdUcXN0THRncTIxSmhjeEdnd0tzeEtHaTJJWnZPd290VHpsalZEUUFGN2FfNWlwbzgzTFJJbVZaYjZJeGZid2NIZW5RQw?oc=5"
+  },
+  {
+    "id": "kr-623719",
+    "date": "2026-08-16",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "서울시, 전기 이륜자동차 배터리 화재 분석…6천여 대 리콜 이끌어 - m-i.kr",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "전기차 고전압·배터리 제어"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "서울시, 전기 이륜자동차 배터리 화재 분석…6천여 대 리콜 이끌어 - m-i.kr 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6OHpDczlYYlUtRGJ4R0tBaU5xRWlkS0pLVUM1cmg5Yi1SbW8taWtrVkpkWFBSbjdyQTlnSERhYjUwWTlkLWNUaFZycWRHRnctSWltMm5VUmxuOTlDVVNoSURyRjXSAWhBVV95cUxQU3RWMDJscUpFVGhsN3RqTENGVm0xZXNuS0x3MFdUcXN0THRncTIxSmhjeEdnd0tzeEtHaTJJWnZPd290VHpsalZEUUFGN2FfNWlwbzgzTFJJbVZaYjZJeGZid2NIZW5RQw?oc=5"
+  },
+  {
+    "id": "kr-92256",
+    "date": "2026-08-16",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "“9분 만에 연기 난 뒤 폭발”···전기 이륜차 6000여대 리콜로 이어져 - 경향신문",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://chicstory.github.io/engines/hyundai_kia_engine_table.html",
+    "summary": "“9분 만에 연기 난 뒤 폭발”···전기 이륜차 6000여대 리콜로 이어져 - 경향신문 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmTFFDRGZXR25yOXI0UEdVOHFlM3R0d2FXOV9mc0pQTWg1MjdySFFpaTlFSV9WdEY3dWJDTzdGUzdQUWlod0kybWNQOGdHNldROGJ6YUxXUlhaZ9IBX0FVX3lxTE1sVGtsWkxOaFRDdDZUM1Jtc3hLSFZSc1dqRFJ0eVZFMkJ0ZE5HMm5fbnp2TGpZcWtzOVRpUElzWUtvZmpUOVEzeDB4aV9IUEY1cnFlaVpOTjhkcWxjUm9F?oc=5"
   },
   {
     "id": "nhtsa-886147",
