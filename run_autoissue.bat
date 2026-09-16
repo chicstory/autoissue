@@ -32,12 +32,13 @@ git commit -m "Auto update daily issues & RSS: %TODAY%"
 git push origin main
 
 echo.
-echo [4/4] Deploying master RSS feed to Portal...
+echo [4/4] Deploying master RSS feed & fuel price to Portal...
 set "PORTAL_DIR=%~dp0..\chicstory.github.io"
-if exist "%PORTAL_DIR%\rss.xml" (
+if exist "%PORTAL_DIR%\index.html" (
     pushd "%PORTAL_DIR%"
-    git add rss.xml sitemap.xml robots.txt
-    git commit -m "Auto sync portal master RSS with auto issues: %TODAY%" > nul 2>&1
+    python "%PORTAL_DIR%\autocost\fuel_collector.py" > nul 2>&1
+    git add rss.xml sitemap.xml robots.txt autocost/
+    git commit -m "Auto sync portal master RSS & fuel prices: %TODAY%" > nul 2>&1
     git push origin main
     popd
 )
