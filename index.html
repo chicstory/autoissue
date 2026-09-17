@@ -420,8 +420,53 @@ body {
   font-size: 1.1rem;
   color: var(--tpl-text-sub);
   max-width: 760px;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 1.8rem;
   line-height: 1.7;
+}
+
+/* Sub Navigation Tab Bar */
+.subnav-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2.4rem;
+}
+
+.autoissue-subnav {
+  display: inline-flex;
+  background: rgba(16, 24, 40, 0.85);
+  border: 1px solid var(--border-subtle);
+  padding: 5px;
+  border-radius: 14px;
+  gap: 6px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.subnav-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--tpl-text-sub);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.subnav-tab:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.subnav-tab.active {
+  background: rgba(244, 63, 94, 0.18);
+  border: 1px solid rgba(244, 63, 94, 0.45);
+  color: #fda4af;
+  box-shadow: 0 0 14px rgba(244, 63, 94, 0.25);
 }
 
 /* KPI Metric Cards */
@@ -960,6 +1005,13 @@ footer {
           <div class="tpl-drawer-item-desc">자동차 제조사별 리콜 · 미국 NHTSA 선제 공고</div>
         </div>
       </a>
+      <a href="https://thapathlab.com/autoissue/safepick.html" class="tpl-drawer-item">
+        <div class="tpl-drawer-icon" style="background: rgba(0, 242, 254, 0.15); color: var(--tpl-cyan);"><i class="bi-shield-check"></i></div>
+        <div class="tpl-drawer-item-text">
+          <div class="tpl-drawer-item-title">세이프티픽 & 충돌안전 백과</div>
+          <div class="tpl-drawer-item-desc">10개년(2015~2026) IIHS · KNCAP · 중고차 팁</div>
+        </div>
+      </a>
       <a href="https://thapathlab.com/autocost/" class="tpl-drawer-item">
         <div class="tpl-drawer-icon" style="background: rgba(16, 185, 129, 0.15); color: #34d399;"><i class="bi-calculator-fill"></i></div>
         <div class="tpl-drawer-item-text">
@@ -1031,6 +1083,18 @@ footer {
     <p class="hero-desc">
       국내 국토교통부 리콜부터 <strong>미국 NHTSA 해외 선제 결함 공고</strong>, 최신 신차·페이스리프트 출시, OTA 무상수리까지 매일 엄선하여 실시간 제공합니다.
     </p>
+
+    <!-- Sub-navigation Tabs: Auto Issue vs SafePick -->
+    <div class="subnav-container">
+      <nav class="autoissue-subnav" aria-label="자동차 허브 세부 메뉴">
+        <a href="https://thapathlab.com/autoissue/" class="subnav-tab active">
+          <i class="bi-exclamation-octagon-fill"></i> 데일리 리콜·결함 공고
+        </a>
+        <a href="https://thapathlab.com/autoissue/safepick.html" class="subnav-tab">
+          <i class="bi-shield-check"></i> 세이프티픽 & 충돌안전 (10개년)
+        </a>
+      </nav>
+    </div>
 
     <!-- KPI Metric Cards -->
     <div class="kpi-grid">

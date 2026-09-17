@@ -23,7 +23,7 @@ python "%~dp0..\thepathlab\generate_network_seo.py"
 
 echo.
 echo [3/4] Staging updated data and files...
-git add index.html sitemap.xml rss.xml robots.txt data/issues.json data/latest_stats.json auto_issue_collector.py run_autoissue.bat README.md 2>nul
+git add index.html safepick.html sitemap.xml rss.xml robots.txt data/issues.json data/safepick.json data/latest_stats.json auto_issue_collector.py run_autoissue.bat README.md 2>nul
 
 for /f "tokens=1-3 delims=- " %%a in ('date /t') do (
     set TODAY=%%a-%%b-%%c
