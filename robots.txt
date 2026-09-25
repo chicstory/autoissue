@@ -1,5 +1,25 @@
 User-agent: *
 Allow: /
 
+# Google Search & AI Search Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://thapathlab.com/autoissue/sitemap.xml
 Sitemap: https://thapathlab.com/autoissue/rss.xml
+Sitemap: https://chicstory.github.io/autoissue/sitemap.xml

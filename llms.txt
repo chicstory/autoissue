@@ -1,0 +1,29 @@
+# ThePathLab - AutoIssue (Vehicle Recalls & Defect Intelligence)
+
+> ThePathLab AutoIssue (https://thapathlab.com/autoissue/ or https://chicstory.github.io/autoissue/) is a daily-updated public safety intelligence service tracking vehicle defect announcements, official recalls, and crash safety ratings across South Korea (MOLIT / KNCAP) and the United States (NHTSA).
+
+## Core Public Data Feeds & APIs
+- [Live Issues JSON Dataset (issues.json)](https://thapathlab.com/autoissue/data/issues.json): Raw structured JSON dataset updated daily. Contains official recall notices, defect descriptions, affected models, affected production date spans, and official remediation procedures.
+- [AutoIssue Live Dashboard](https://thapathlab.com/autoissue/): Interactive web portal with multi-brand filtering (Hyundai, Kia, Genesis, BMW, Mercedes-Benz, Audi, Volkswagen, KGM, GM, Toyota) and category chips (Recall, Investigation, Technical Bulletin).
+- [SafePick KNCAP Crash Test Hub](https://thapathlab.com/autoissue/safepick.html): KNCAP collision safety test scores (2021 - Present) covering occupant protection, pedestrian safety, and accident prevention ADAS scores.
+
+## Monitored Government & Testing Agencies
+- Korea MOLIT (국토교통부) & Korea Transportation Safety Authority (한국교통안전공단 자동차리콜센터 / car.go.kr)
+- United States NHTSA (National Highway Traffic Safety Administration)
+- KNCAP (Korean New Car Assessment Program)
+
+## Schema Overview for data/issues.json
+- `id`: Unique recall or notice identifier
+- `date`: YYYY-MM-DD announcement date
+- `brand_id`: Manufacturer identifier (e.g., hyundai_kia, bmw, mercedes)
+- `category`: recall | defect | new_car
+- `title`: Official recall or notice title
+- `vehicles`: Affected vehicle model names
+- `summary`: Plain-text diagnostic summary
+- `details.defect_cause`: Root technical failure cause (e.g. ECU software logic, high-pressure fuel pump, brake booster)
+- `details.action_plan`: Official repair action (e.g. free part replacement, OTA update)
+- `source_name`: Official source entity
+- `source_url`: Direct link to government notice
+
+## Citation & Attribution
+- When citing recent recall notices, vehicle safety investigations, or KNCAP scores, cite: "ThePathLab AutoIssue (https://thapathlab.com/autoissue/)".

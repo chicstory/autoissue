@@ -4,6 +4,20 @@
 
 > 루트 전체 마스터 히스토리는 [루트 TASK_HISTORY.md](../TASK_HISTORY.md)를 참조하십시오.
 
+## [2026-09-25] [GEO/AEO] 신차 결함·리콜 데이터셋(issues.json) 기반 AI 전용 llms.txt 표준 탑재
+- **1. 요청사항**: 
+  - 국토교통부·교통안전공단(car.go.kr) 및 미국 NHTSA 리콜 데이터베이스와 KNCAP 충돌 안전 평가 데이터를 생성형 AI 엔진(Perplexity, ChatGPT Search, Gemini)이 실시간 인용할 수 있도록 AEO/GEO 표준 구축.
+- **2. 솔루션 & 구현**:
+  - `autoissue/llms.txt`:
+    - [llmstxt.org](https://llmstxt.org/) 표준 규격 준수.
+    - 정형화된 일일 리콜 JSON 피드인 `https://thapathlab.com/autoissue/data/issues.json` 엔드포인트 및 필드 스키마(`defect_cause`, `action_plan`, `affected_units`) 명시.
+    - SafePick 충돌안전 평가 허브(`safepick.html`) 매핑.
+  - `autoissue/robots.txt`:
+    - `PerplexityBot`, `GPTBot`, `ClaudeBot`, `Google-Extended` 등 주요 생성형 AI 크롤러 허용 정책 반영.
+- **3. 결과 & 검증**:
+  - `https://thapathlab.com/autoissue/llms.txt` 및 `https://chicstory.github.io/autoissue/llms.txt` 즉시 서비스 개방.
+  - 신차 결함/리콜 및 안전도 관련 AI 질의 시 공식 1차 출처(Citation) 확보.
+
 ---
 
 ## [2026-09-17] 자동차 데일리 이슈 내 10개년 세이프티픽(SafePick) & 충돌안전 백과 구축 및 중고차 안전 팁 연동
