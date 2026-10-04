@@ -1,5 +1,32 @@
 [
   {
+    "id": "nhtsa-629196",
+    "date": "2026-10-04",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Range Rover Sport Recalled Over Rear Subframes That Can Crack - Motor1.com",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdkFVbkxBWTlCQ1ExSmxheTVpcmNaLTdWLWl3S2MwNmgwcWllSXd6UG1LcUcwMVJ2MHBjVlZKWFhwQk5VZi1oZ2EtNS0xN3F3SDhPWGtETkp6Z1lMcFo3WGY5YUVwb29pVkJMMXNYMGd5V0tTdnYtQ1l5LXkxM0F3Mm5R?oc=5"
+  },
+  {
     "id": "cargokr-se-4819",
     "date": "2026-10-02",
     "brand_id": "hyundai_kia",
@@ -26,6 +53,141 @@
     },
     "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
     "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
+    "id": "kr-883631",
+    "date": "2026-10-02",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "현대차·기아 9월 판매 희비…해외 시장 성적표가 갈랐다 - 뉴스핌",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "현대차·기아 9월 판매 희비…해외 시장 성적표가 갈랐다 - 뉴스핌 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TNFN3Vkp2dDJBUW5BaWlmdUpIV0hHTUlQZy1MUmlZXzU1WVNGendoY2hBRS1SNm94WlF6aDVCOGZUUWlXMWd4V2VRdkRzeUZpSFlXSzlPTkNLeE41?oc=5"
+  },
+  {
+    "id": "nhtsa-556115",
+    "date": "2026-10-02",
+    "brand_id": "ford_lincoln",
+    "brand_name": "포드 · 링컨",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Ford recalls more than 40,000 trucks and SUVs over visibility risk - Fox Business",
+    "vehicles": [
+      "포드"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/ford_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjFtTEJYb25zSWcyX1Mza2I0elp0SllGLWRRMTdKNW1vbndFeGhmb1dOOXB4ZkpYUjdpaU8wZk9rTU5KSW5xVlMtVk45Qy1pWlJTQ0tGQmEyYTdkNVJiSXZLM3dvVFY3cVViZHp3SFlRSnNnR29Mdk43V0g1TUNzY1ZIeW1oZnFlNENDSFAwUGJ0MFd1d0RKZFZzb2xFSlQ4OGFN0gGjAUFVX3lxTE1SMW1MQlhvbnNJZzJfUzNrYjR6WnRKWUYtZFExN0o1bW9ud0V4aGZvV045cHhmSlhSN2lpTzBmT2tNTkpJbnFWUy1WTjlDLWlaUlNDS0ZCYTJhN2Q1UmJJdkszd29UVjdxVWJkendIWVFKc2dHb0x2TjdXSDVNQ3NjVkh5bWhmcWU0Q0NIUDBQYnQwV3V3REpkVnNvbEVKVDg4YU0?oc=5"
+  },
+  {
+    "id": "nhtsa-595953",
+    "date": "2026-10-02",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Volvo, Mack Recall Tanker Trucks Over Braking Software - The BRAKE Report",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdFU2dTFKYlE0WGtjc0Via1BJeE1mQVBWV2R2aFY1Z1A5aDYzeXhSUksyM2hZSXIxck1QV2VSME8xeWpKUUpFWHVOUldjVE1ZeU5HbHppU2xXZHpwS01JejBwcENaRE04R3VMYzZxX04wZEhuaFVNUW9OcktXajRLLQ?oc=5"
+  },
+  {
+    "id": "nhtsa-323431",
+    "date": "2026-10-02",
+    "brand_id": "rivian",
+    "brand_name": "Rivian",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Rivian issues R2 recall for poorly tightened battery packs - TechCrunch",
+    "vehicles": [
+      "Rivian"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVlVJZGJlcW82ckVRLVRVYXdjbFBzY1J3dlpzcGNhcmtta0FudV9ZQk93VEhPcGdOR0VqSk13dEpUXy1oRUJQWl9XcThIWGFQY1VMZkR6ODh3MmhWZlpjVThOVUo3WjBNbW40b1hra0Jkd0c1T011ZHV1M3hVV2doSlRiQTMzdzVZRGJlSUpVelQwcGp6ODdBSg?oc=5"
+  },
+  {
+    "id": "nhtsa-1711",
+    "date": "2026-10-02",
+    "brand_id": "ford_lincoln",
+    "brand_name": "포드 · 링컨",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Ford Recalls 41,748 SUVs and Trucks Over Headlight Defect - News and Statistics - IndexBox",
+    "vehicles": [
+      "포드"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/ford_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVk52RFItcU14eGk4ZlpsVXFLXzhURXo0NGo5eWlNalMxT0REWVpkVjZGT2swQ19lSG1EV0NjUFdOXzlQSFFVeUp2bkRJZ3c5WkU5dnhZaGtqWHFQV01rRmQxRWdFeXhOQlVwZ2FvQXZCeTNSbnBPcTEzYVU1S2xrbENZTmhwOXdLOE50NXZfa3Y2V2xfeGxyYUptcVdYcUctbHR3bU1OcUlXX25IcERJ?oc=5"
   },
   {
     "id": "cargokr-re-6396",
@@ -406,6 +568,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWIxRThmY2FaZDdTTTBxa1Vsc2R5LWE5NWRnamtBSFNRVHhSTUNsc2dXeUJJYXJ2eGVBVVVMMTltUGxwSmNDbkpNLUxkZUNvMkN5OUVVTzFYTy1zaXBzLUNUTjhoQVhWWHU2ODZBWjNJb3ZBU3ROZlRhaUQ1TFFhY3hianBLUDRFbEljVjh1NDFUYkNEaVA1RWxRN1VWaUtXUkM0R0NMUHZXVnpnN1NTS19JNFdnblg4N3dyMnJNaDhfdm0wMFV2aGwyY0k0SVE1dk1YTXRFVkEzTE9SUkE?oc=5"
+  },
+  {
+    "id": "kr-252626",
+    "date": "2026-10-01",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "BYD·테슬라 대표 국감 증인으로…국토위, 자동차 쟁점 부각 - electimes.com",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "BYD·테슬라 대표 국감 증인으로…국토위, 자동차 쟁점 부각 - electimes.com 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Qcms4bXR5RVJpTGQyUjZwSDlPNzN0VDVQMjh6Y0RoLWtNVVlTekFQRUN2dFJkazA4dGRfazVhbFJxaGdzUUdWSlBFaF9wT2xRMlFXdjV5aURybW16VHBZZEdsSm91TkdCNTJVMTdZelrSAXBBVV95cUxOUHJrOG10eUVSaUxkMlI2cEg5TzczdFQ1UDI4emNEaC1rTVVZU3pBUEVDdnRSZGswOHRkX2s1YWxScWhnc1FHVkpQRWhfcE9sUTJRV3Y1eWlEcm1telRwWWRHbEpvdU5HQjUyVTE3WXpa?oc=5"
   },
   {
     "id": "cargokr-re-6384",
@@ -947,6 +1136,60 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeE1ZTmg2ejMwLU5mUXkzY2l1RVVCN3F3ZW53bnZsLUlDZmRNbkR3cXk3dnQ5NWk4UDF4TThxdVI3WG1HOFNFVTl1U2VxLW9DbGpXZ3lycGhLSDBkdVhvQ3I0NlJnVktKOHpKR1phYWVVR2duLXRnMGtMU3lOaThITGd1Tlc3OXF0NjNaczVlSDhyVzRFdmdPNEN1LWw?oc=5"
+  },
+  {
+    "id": "kr-117998",
+    "date": "2026-09-28",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "현대차, 2000만원대 ‘아이오닉 V’로 중국 재공략 - 스페셜경제",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "현대차, 2000만원대 ‘아이오닉 V’로 중국 재공략 - 스페셜경제 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aWUdfY0J3OUhZTE1WOEZaVXVLY0tPdkZMNVpLSTMtVjFwNmk5VFlkWjdZMHVwMWo5VDR2OU1BcGRZc1JwM0dnZEZZLWNhNWNWMUR6VzFiMzBpMGlTcUI5aHZWc1V2TThTakVBWQ?oc=5"
+  },
+  {
+    "id": "nhtsa-804461",
+    "date": "2026-09-28",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] JLR Is Recalling 24K SUVs, Including the Land Rover Defender, for Another Power-Converter Issue - caranddriver.com",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVkxKNUhlVVczSVdUZlF0ZDY1dTB0akVacVNaTzJkVW52ZC14ZFBYZEJzZ0RGZ0syTHRxZ2d0a0Z6RmtRVlRFSWZfRXlQNDFLZXpRaWRvaDcxSzFKang2b2VZWC04VHdpdTVBQmpaNFlrYlpCYnpKbk9nZm02b1dCTWg0cUViTFEyTW9jbmFlNFZNZzdCVXd1YlFYNmJpUQ?oc=5"
   },
   {
     "id": "nhtsa-554628",
@@ -2652,6 +2895,60 @@
     "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHd4T0JVMkhHWjZYTkt5ZF9TWDVuR0VidTFHNFl2OU5GaUlTa1RpN1E4MHlFTm5pWllleVJuUDB4UFpFdWJUeXd4aDRmWV9Vdzlybm1FeDlJdVI5V2xiT24wNEJ4YlVJSHMzZmdoTjNCRlN5eHdpc2MwLVF6dUlCcjVnWTZ0XzZ5MmRCRWlUT2lhamV5VU8yaGlTc2RmbWdSU0c4bEMyOVB4bEJlU2taaUM4Yjd4cV85?oc=5"
   },
   {
+    "id": "kr-638843",
+    "date": "2026-09-14",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "newcar",
+    "category_label": "🚗 신차·출시",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "[단독] 기아, 광주 3공장 도장공장 새로 짓는다…생산거점 재편 속도 [현대차·기아, 신차 로드맵] - 이투데이",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "[단독] 기아, 광주 3공장 도장공장 새로 짓는다…생산거점 재편 속도 [현대차·기아, 신차 로드맵] - 이투데이 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vVmlKMndPSHVvY3lZM052NHNUaXVEbzNfcVp6V05lTGZjMEdmMVRkX240ek92QXFncmNuX1NuQW1kNGdFZ3R4WVJaOFNZTGI0elhmcg?oc=5"
+  },
+  {
+    "id": "nhtsa-910761",
+    "date": "2026-09-14",
+    "brand_id": "ford_lincoln",
+    "brand_name": "포드 · 링컨",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Ford files 4 new recalls that will impact 225,000-plus vehicles - freep.com",
+    "vehicles": [
+      "포드"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/ford_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcThrM1B1cXpQeXhSVG8tM2lGT3BTUjFqSndwQ1E4cS1xd2Q0RnNET21WWGlzdEN5Q0F5WFV2VWlqOXRJc3pXdDIwRjlfZDFvanhhR08tYjdUQjFyQ3ZoR1pyN1lSZlN6eFA0dmlldlhSMWtkSzhHOGgxU0UzQzgxU0V4WkRjR096MTBiOHVrQWdlTmRzQ3J2TTgtWkRUc2JkdnhXTlBR?oc=5"
+  },
+  {
     "id": "kr-464547",
     "date": "2026-09-13",
     "brand_id": "hyundai_kia",
@@ -3959,6 +4256,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc01BN19HZVY4YkM2T3E5eU41SENtb3ZPM1ZpRVg3d3VXb1NBa2E5cTJjMDJHYUVPT2ZLczk1NkRZMG5SUW9zdmVCam1JcTRwb1BHbXEwUnFpSmVzSGhBYW8zNURiQ1FkNlg2N3c4VEQwQTRvUlBEWU5EQ21TNzNkRi1wOVF2X3JxeEVYX0dhdGE3Y2FWeE91RmxfdXRmb0c3YVl6UWZnbWNPUGtONzV0UzdIMA?oc=5"
   },
   {
+    "id": "nhtsa-166736",
+    "date": "2026-09-08",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Jeep Recalls 328,381 Grand Cherokees over Rear Coil Springs That Could Detach While Driving - caranddriver.com",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWFfd0FONFN4SmRBMFJYd2d0NnFwM3VRU1BfLUx0a09Tb0EtSzd6R1E5MENjbHQ5ai1kcC1iWk8xNVg3RzdBeTBjOUQ5MEpKSmVPUkhJVGUycGVYQ0lHSkZMTzZmc3JTTHVTQzFKYVN2V1luMWIzM3d6SGxLaTI2NGRnNE44MUpWSGNUVVFBQXpTZUxmS3JONEFn?oc=5"
+  },
+  {
     "id": "iss-2026-09-04",
     "date": "2026-09-07",
     "brand_id": "hyundai_kia",
@@ -4368,6 +4692,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xZWRXcmVXVmxXdV9JNnBqSTg3TnFfQnVpQlM2MVVXWkxCMW12UkRIV3ktWnJSSmRyMkFFa1lmMmotWUxYUVEwOU5QWQ?oc=5"
+  },
+  {
+    "id": "nhtsa-310461",
+    "date": "2026-09-06",
+    "brand_id": "lucid",
+    "brand_name": "Lucid Motors",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Lucid (LCID)’s Biggest-Ever Recall Hits More Cars Than it Sold All Last Year - finance.yahoo.com",
+    "vehicles": [
+      "Lucid"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcUFZMHlTR3RiU2hiNm9sblBSZG1ydlFYWHo0Sno5NDNjZ0c0S0lXRnhMTVpPNUhIZWJWVTVkcEQ2dzF5RlJoSDNXT0hQdHhBMlExLS03YkFjd2UxbC1pRjdiYVhQNFRsMTRLQy14VkpWZE9IMVp2X1EwTEowOXVUX21JTlI1U1RjUVVrbGZKSU5TTDF3VXdkdXBJTQ?oc=5"
   },
   {
     "id": "iss-2026-09-06",
