@@ -888,6 +888,109 @@ body {
   text-decoration: underline;
 }
 
+.btn-hsmp-guide {
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: #34d399;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s;
+}
+.btn-hsmp-guide:hover {
+  background: rgba(16, 185, 129, 0.25);
+  color: #ffffff;
+}
+
+.hsmp-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  background: rgba(2, 6, 23, 0.78);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.hsmp-modal-backdrop[hidden] { display: none; }
+.hsmp-modal {
+  width: 100%;
+  max-width: 720px;
+  max-height: 88vh;
+  background: #0f172a;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+}
+.hsmp-modal-head {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.hsmp-modal-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #f8fafc;
+}
+.hsmp-modal-body {
+  padding: 16px 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+.hsmp-outline-pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: keep-all;
+  font-family: 'Pretendard', -apple-system, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: #e2e8f0;
+  background: rgba(2, 6, 23, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+}
+.hsmp-modal-foot {
+  padding: 12px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.hsmp-btn-copy {
+  background: #10b981;
+  color: #022c22;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 800;
+  font-size: 0.84rem;
+  cursor: pointer;
+}
+.hsmp-btn-close {
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 0.84rem;
+  cursor: pointer;
+}
+
 /* Empty State */
 .empty-state {
   grid-column: 1 / -1;
@@ -1265,6 +1368,23 @@ footer {
     }
 </script>
 
+<!-- HSMP Outline Modal -->
+<div id="hsmpModalBackdrop" class="hsmp-modal-backdrop" hidden>
+    <div class="hsmp-modal" role="dialog" aria-modal="true" aria-labelledby="hsmpModalTitle">
+        <div class="hsmp-modal-head">
+            <h3 id="hsmpModalTitle" class="hsmp-modal-title">HSMP 글쓰기 가이드라인</h3>
+            <button type="button" id="hsmpCloseTop" class="hsmp-btn-close">닫기</button>
+        </div>
+        <div class="hsmp-modal-body">
+            <pre id="hsmpOutlineText" class="hsmp-outline-pre"></pre>
+        </div>
+        <div class="hsmp-modal-foot">
+            <button type="button" id="hsmpCopyBtn" class="hsmp-btn-copy">아웃라인 전체 복사</button>
+            <button type="button" id="hsmpCloseFoot" class="hsmp-btn-close">닫기</button>
+        </div>
+    </div>
+</div>
+
 <!-- App Core Script -->
 <script>
 (function() {
@@ -1430,13 +1550,105 @@ footer {
 
                 <div class="card-actions">
                     <span class="card-source"><i class="bi-building-check"></i> ${item.source_name || '공식 공고'}</span>
-                    <a href="${item.source_url || '#'}" target="_blank" rel="noopener noreferrer" class="btn-source-link">
-                        원문 공고 확인 <i class="bi-arrow-right-short" style="font-size:1.1rem;"></i>
-                    </a>
+                    <div style="display:flex;align-items:center;gap:8px;">
+                        <button type="button" class="btn-hsmp-guide" data-issue-idx="${filtered.indexOf(item)}">
+                            HSMP 가이드
+                        </button>
+                        <a href="${item.source_url || '#'}" target="_blank" rel="noopener noreferrer" class="btn-source-link">
+                            원문 공고 <i class="bi-arrow-right-short" style="font-size:1.1rem;"></i>
+                        </a>
+                    </div>
                 </div>
             `;
 
+            const guideBtn = card.querySelector('.btn-hsmp-guide');
+            if (guideBtn) {
+                guideBtn.addEventListener('click', () => openHsmpOutline(item));
+            }
+
             grid.appendChild(card);
+        });
+    }
+
+    // HSMP Guideline Modal Logic (GUIDELINES.md compliant: no emojis, preventive maintenance tone)
+    function buildHsmpOutline(item) {
+        const cleanTitle = (item.title || '').replace(/^\[[^\]]+\]\s*/g, '').trim();
+        const brand = item.brand_name || '해당 제조사';
+        const vehicles = (item.vehicles && item.vehicles.length) ? item.vehicles.join(', ') : '대상 차종 확인 필요';
+        const tags = (item.powertrain_tags && item.powertrain_tags.length) ? item.powertrain_tags.join(', ') : '파워트레인/연식 확인 필요';
+        const d = item.details || {};
+        const units = d.units_affected || '공고문 확인 필요';
+        const period = d.production_period || '생산 기간 확인 필요';
+        const cause = (d.defect_cause && d.defect_cause !== '-') ? d.defect_cause : (item.summary || '세부 원인 공고문 참조');
+        const action = d.action_plan || '공식 서비스센터 방문 및 무상 점검 조치';
+
+        return [
+`[HSMP 티스토리 글감 가이드라인]`,
+`기준일: ${item.date || '-'} | 출처: ${item.source_name || '공식 공고'}`,
+`원문 링크: ${item.source_url || '-'}`,
+``,
+`1. 제목 후보 (이모지 금지, 검색형)`,
+`- ${brand} ${vehicles} ${item.category === 'recall' ? '리콜' : '무상수리·점검'} 대상 확인 및 정비 체크포인트`,
+`- ${cleanTitle} 핵심 정리 (생산기간·조치방법·중고차 확인사항)`,
+``,
+`2. 핵심 팩트 요약`,
+`- 대상 차종 / 파워트레인: ${vehicles} (${tags})`,
+`- 대상 대수 / 생산 기간: ${units} / ${period}`,
+`- 공고된 원인: ${cause}`,
+`- 공식 시정 조치: ${action}`,
+``,
+`3. 정비 및 부품 규격 체크포인트 (중고차·노후차 오너용)`,
+`- 엔진/유종 코드 및 리콜 이력 확인: 차대번호(VIN) 기준 자동차리콜센터(car.go.kr) 조회`,
+`- 관련 부품/소모품 규격 확인: [확인 필요: 모비스 WPC / 제조사 부품 카탈로그 기준 품번·오일·냉각수 규격 대조]`,
+`- 중고차 매입·출고 전 확인: 시정조치 완료 스티커 및 공식 서비스센터 전산 이력 대조`,
+``,
+`4. 5단계 본문 아웃라인`,
+`[도입] 최근 공고된 ${brand} (${vehicles}) 이슈 요약 및 차주·중고차 예비 구매자가 지금 확인해야 하는 이유`,
+`[사진 배치 1: 공식 리콜/안내 공고문 요약 또는 대상 차종 엔진룸 위치]`,
+`[원인] ${cause} 메커니즘 설명 (비난 워딩 배제, 순수 기계적·물리적 원리 중심)`,
+`[조치] ${action} 절차 안내 및 공식 서비스센터(블루핸즈·오토큐 등) 예약 시 유의사항`,
+`[사진 배치 2: 점검 부위 또는 부품 규격 확인 예시]`,
+`[실전 팁] 이 이슈와 관련해 중고차/노후차 운행 시 함께 점검해 두면 좋은 주변 소모품 및 예방 정비 조언`,
+`[마무리] 공익적 예방 점검 권고 및 자동차리콜센터 확인 링크 안내`
+        ].join('\n');
+    }
+
+    const hsmpBackdrop = document.getElementById('hsmpModalBackdrop');
+    const hsmpPre = document.getElementById('hsmpOutlineText');
+    const hsmpCopyBtn = document.getElementById('hsmpCopyBtn');
+
+    function openHsmpOutline(item) {
+        if (!hsmpBackdrop || !hsmpPre) return;
+        hsmpPre.textContent = buildHsmpOutline(item);
+        hsmpBackdrop.hidden = false;
+        hsmpCopyBtn.textContent = '아웃라인 전체 복사';
+    }
+
+    function closeHsmpOutline() {
+        if (hsmpBackdrop) hsmpBackdrop.hidden = true;
+    }
+
+    const hsmpCloseTop = document.getElementById('hsmpCloseTop');
+    const hsmpCloseFoot = document.getElementById('hsmpCloseFoot');
+    if (hsmpCloseTop) hsmpCloseTop.addEventListener('click', closeHsmpOutline);
+    if (hsmpCloseFoot) hsmpCloseFoot.addEventListener('click', closeHsmpOutline);
+    if (hsmpBackdrop) {
+        hsmpBackdrop.addEventListener('click', (e) => {
+            if (e.target === hsmpBackdrop) closeHsmpOutline();
+        });
+    }
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && hsmpBackdrop && !hsmpBackdrop.hidden) closeHsmpOutline();
+    });
+    if (hsmpCopyBtn) {
+        hsmpCopyBtn.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(hsmpPre.textContent);
+                hsmpCopyBtn.textContent = '복사 완료!';
+                setTimeout(() => { hsmpCopyBtn.textContent = '아웃라인 전체 복사'; }, 1500);
+            } catch {
+                hsmpCopyBtn.textContent = '직접 드래그해 복사해 주세요';
+            }
         });
     }
 
