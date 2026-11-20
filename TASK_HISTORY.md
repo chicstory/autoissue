@@ -4,6 +4,14 @@
 
 > 루트 전체 마스터 히스토리는 [루트 TASK_HISTORY.md](../TASK_HISTORY.md)를 참조하십시오.
 
+## [2026-11-20] ⏰ AutoIssue 매일 자동 수집 GitHub Actions 구축
+- **요청사항**: 브라우저에서 `autoissue`를 열면 항상 최신 리콜·결함·뉴스가 반영되어 있도록 매일 자동 실행 파이프라인 구축.
+- **수정한 내용**:
+  - `.github/workflows/daily_autoissue.yml`: 매일 07:30 KST(`30 22 * * *` UTC) 및 수동(`workflow_dispatch`)으로 `auto_issue_collector.py` 실행 후 `data/issues.json`, `data/latest_stats.json` 자동 커밋·푸시.
+- **앞으로 지킬 규칙**: `auto_issue_collector.py`는 기존 `issues.json`과 머지하므로 누적 데이터를 보존한 채 신규 항목만 추가하며, CI 커밋 시 `[skip ci]` 태그를 유지할 것.
+
+---
+
 ## [2026-09-25] [GEO/AEO] 신차 결함·리콜 데이터셋(issues.json) 기반 AI 전용 llms.txt 표준 탑재
 - **1. 요청사항**: 
   - 국토교통부·교통안전공단(car.go.kr) 및 미국 NHTSA 리콜 데이터베이스와 KNCAP 충돌 안전 평가 데이터를 생성형 AI 엔진(Perplexity, ChatGPT Search, Gemini)이 실시간 인용할 수 있도록 AEO/GEO 표준 구축.

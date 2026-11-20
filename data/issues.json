@@ -705,6 +705,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdlAtSTE3TUxUdHdxTnBST2haZWs5bGRCX3B4RzZlMkJETndTQWZGeHMtZkFJb3hFWmV1SUdJVC1STDFCcUg0ZXJVdVBwUWdzd1oxQjVvZHV2TU1tZks1d05kVnd5djBUdURvZjh5N1Z0MXloa3BXaGpJdzJrMkcyNDBIUm5iOHhXamVNR0xQdW9ib1pyUC1ScDNYOUYzUXhIbHBoRUhEOWxhdw?oc=5"
   },
   {
+    "id": "nhtsa-284928",
+    "date": "2026-11-13",
+    "brand_id": "bmw_mini",
+    "brand_name": "BMW · MINI",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Over 720,000 BMWs Recalled, Should Be Parked Outside Due to Fire Risk - Consumer Reports",
+    "vehicles": [
+      "BMW"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/bmw_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1JwUU85eXZMOGlNREY2TlozaXMtU1Q5STNYdzVFc21JV2cyWEdMVmZaa2V0aTRnME5jX2ViVU04YV85SUNxa0tYUzRxYkFtZlJ2NlVNb2VRZnZBbk41aGNmdWs4TzBhZTdyOWtTX0ZGbFpkc3hEV0w0UUtpUnV6MDRfZXhoZ3QxaWVKTFFzNzNtUnBxb1dVR0ZuZml2ZVVlTTMzY29SY0llRFZXSF9LcFNObmNsbXI5ZnZIX1N6TDM5Qlk?oc=5"
+  },
+  {
     "id": "cargokr-se-4875",
     "date": "2026-11-12",
     "brand_id": "hyundai_kia",
