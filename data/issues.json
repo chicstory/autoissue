@@ -163,6 +163,60 @@
     "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRHJoUEJHZTdzRWwwVGZvajJNbEpDSnhrQUMxQlpjRlh6UU5xYnBRdGhXTnlucmdFS1BkUWs5dUNRYk9kTG9BeF80REoxV0hXbllIcmtzNkZkR3B0blFVem81UG5nc2Q2Q19pUEhXVGdrUWZVV3FGSTVKNGJMaEFvVWdVWGEzcHBMWTNRejZmRkNLQ3RfNDljZjVNRnlXeVV2NTdKWndSU2RQQ3RtYnFKaVQ1SlQzQVVNOUhJ0gHAAUFVX3lxTFBmRGtkQTMwbVBTSWtpOXk3ZEw4Z2k2NHExNXJaMGh6Z1o3anFxSU03eG9oQWxBLXVFYzd1cEdob3gtM3ZvbHdDSUdOZHdZWDR1ZmFrNnp3RXpiWm90Vk1TYXlOVlpoSHlxSTR4UTN2RmhZb3kzTEhlMFJBeDlIa3ppSkdVUHNWSHB5OXZtZ1hzSm0yUllsMTBTejRES0JNRWdUR2xyeWlpYjBkZ24ycEx6U2FoX000X0IzczVJOFMxdw?oc=5"
   },
   {
+    "id": "nhtsa-883915",
+    "date": "2026-11-20",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Toyota recalls more than 60,000 vehicles. See affected models - USA Today",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUkyM3JORGZnVkZKOC1jM3lnbTBRRmE0U0ZlWDN3NExmRUJVQlJRZEN2WmdnckF1Z2diQ2NkYmMwcm8yLXUwaElSaUhEbVEwdGZpY1V6TUdETGg3X1k4ZWwyVU5XRkh2X1lOeGVaQm9xZTF3ZGJ4bFdubURWY1Y1RmxZdjdkUHRyckhmbk1uYjFzN0x0Wl9kd2dZQ19aczNqYzdQT1FzeWxraVF4VHc?oc=5"
+  },
+  {
+    "id": "nhtsa-169508",
+    "date": "2026-11-20",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] More than 300,000 Toyota and Lexus cars under recall over airbag issue - newscentermaine.com",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU0M1NWl1bHBzaHcweEdvVkZtM3ZuLUVobExCeDdlNVNGTkZienI0STdBOTJ4RDRsanh3UGl6d25BUWZ3Ym80bUdhQkE2dUk4VjgzdnllVDdMV2ZCTnBSTks3S0luVnBVOVpsbEJhRXV2SnNxVVVvOHl6bEZWM0hkSVBRREN1Tzc0M1Z6a053ZEhrUmxlNXRRVFZJMHBrZ0plOHZvQnVfbDF5RnRrRmo1Wl96SDVOeThIaEx6eGRIY2QwQnVzY2E5TmVha01vRlExMnI0MG1mUzJnNVFQVDU4YzVB?oc=5"
+  },
+  {
     "id": "cargokr-se-4884",
     "date": "2026-11-19",
     "brand_id": "hyundai_kia",
@@ -215,6 +269,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44X3U2N1JQVG9wZDl0YklEQl93WEl3Q2R5VWZqTGFWRlNFMTJ6OWpQN2dLZjFtaGsxT3lxQXlTdWRLajJncDlFY1ZINExiNDc4QW5rSA?oc=5"
+  },
+  {
+    "id": "kr-5770",
+    "date": "2026-11-18",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "newcar",
+    "category_label": "🚗 신차·출시",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "테슬라·BYD 독주 끝나나⋯ 내년 신차 칼 빼든 현대차·기아, 안방서 대반격 - 브릿지경제",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "테슬라·BYD 독주 끝나나⋯ 내년 신차 칼 빼든 현대차·기아, 안방서 대반격 - 브릿지경제 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaTU5TZkhNaTR5WUNEWGQ2OU5rSTJSZ0Vwd04za01fNVptdXdmRE5jT0xvdFNvemZuNElkeFBNUGhkMFRkb2Yzc09KZlNIbEdsRm1faTZYQzZ6QQ?oc=5"
   },
   {
     "id": "cargokr-re-6449",
@@ -840,6 +921,60 @@
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BUnFZS2EyZTlnbU95b0NCeEZ1QktkWE51V3BoVjhHT244V2REOUNOS214dzZ3UFFBZXZoQWQydWdPc2NsSkdQZEpXZjRIaERWQWVSZ2tVcjM0aWlCbmR2NG5fa0t0NF9uekRwZA?oc=5"
   },
   {
+    "id": "kr-607779",
+    "date": "2026-11-12",
+    "brand_id": "byd",
+    "brand_name": "BYD (비야디)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "BYD(002594 SZ), 중동 거점으로 글로벌 초고급차 시장 공략 - 알파경제",
+    "vehicles": [
+      "BYD"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "BYD(002594 SZ), 중동 거점으로 글로벌 초고급차 시장 공략 - 알파경제 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45Z1BoNm9jbjFENHNNOVJRUUx6djRuWHRRY3I2WWxtNGRWOENGaXdwbGc0RUZTMXFWZDdYUHRyRjZxbk51akE3MHRiRk5rYUNleTk0UUpqd3VlZ0Vubko0ZERNMEdHOEdVWGJqZzhR?oc=5"
+  },
+  {
+    "id": "nhtsa-809878",
+    "date": "2026-11-12",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] 2020-2026 Hyundai Palisade Problems: Seat Belt, Airbag and Fire-Risk Recalls - Pickup Truck +SUV Talk",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbkQtWmxmcTVybmoyX3JyY0t4Ujc0bnpJQ1Jzd3pISjhVc3ZBVE1wbkFwemh1OFJmMkt1dDZoeml0Sm5zMVltU0Q0ZU41MUE2ZEVOM2h6UnZkQXZCZGNwLWtPNE9hOVk3OTkzYTZtRmhzcGhzRlJ3ZzBtdGpmelRrUXc3QWF3VndqSHBoRV9RQ3dsekg4SU5sRzhYcWsyNmNwOFdPelRoNVlwWUgxbEhNcw?oc=5"
+  },
+  {
     "id": "cargokr-re-6447",
     "date": "2026-11-11",
     "brand_id": "mercedes",
@@ -1271,6 +1406,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjAtN3VEaFpQTGpBTVhSSXktYkNKSlozZXlIWWVhVzZuRm8zeTR2TWxkRHlWMDFQZkVHRDFvRXAtZGw0U3BzRnZuLXlZTXVCMnNOZjlZTnFGd1pWc2dsaEp5bE9naUpsd2podTBQM2ZHME5IR2FHeVptQXQ0UXVsWG14Wlg4NnJO?oc=5"
+  },
+  {
+    "id": "nhtsa-614197",
+    "date": "2026-11-07",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Hyundai Recalls Kona Electric and Veloster N for Airbag Software Concern - autoevolution",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM3FlUUl5U0xVTmhhb0VrY1dMVlhmRC1FU3dkWFQyZTFiQ3lPa1d1M1RUUnBOOG9WWTB6aXVJd1Vnek1DMXB2M2xIY0lwbE9SMHZCTG9feXdqWTRDaE5zM0tmd1BpRjktdGlCaFNyWVluZ3JVM0VlbnFlTXBJSWg0S29QdW5pc01aZnk4MERuY0F2Uk84Zjk1YXZRM0JxYVRSSG5vU3AwRHVJUUhqNThaeG5lZ2JZdXo4WHY0?oc=5"
   },
   {
     "id": "cargokr-re-6431",
@@ -2247,6 +2409,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZC1MQ3hxWTR2UjZnWm9teElJUjY3WGpzcV9qWGQxVC1YbkNHWnRFVExRTlg0VERaNWdRTFVHSzd5Zi05Z1NtOUQ2QXo2M3Q4OFpzcGpncTZmazdJT2hnSmxQd1dUQXFoWWtON3BjbDlrR3VNT19aUEtjMDQwdVY4Qk9CM2g2bDVRb1FOMkRua1NDZFZIVUp5Rkh0aWg4a1hXTVZ0U3ZLdkhMX01FR3NITzZYTHFSMUJL?oc=5"
+  },
+  {
+    "id": "nhtsa-464258",
+    "date": "2026-10-27",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Toyota to recall more than 228,000 US vehicles over unsecured seat back risk, NHTSA says, Money News - AsiaOne.com",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHZ6V19OSFlmZ01UUU8wU1lQVFhjMVUydHRlYmVXNkFwZElnN1dwOTBZT2JJUlV3cFB2X3BDblN3VkY4ZFU2b3dxeE1BZ1NSYlRLeWE2cXhJbWl6X3E1NHlzZHZuUUduMUxFMkpVSDlYQlowYkI3RGpHZ3NBT0FHUGJMcHFXSUhKVzlXck1mMEFEV2xjMi1WNVA0SzZheXY5X2JiSm5fUW04NGE0?oc=5"
   },
   {
     "id": "nhtsa-657462",
