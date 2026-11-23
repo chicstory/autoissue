@@ -55,6 +55,60 @@
     "source_url": "https://www.car.go.kr/ri/stat/list.do"
   },
   {
+    "id": "kr-763231",
+    "date": "2026-11-22",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "newcar",
+    "category_label": "🚗 신차·출시",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "러시아 폐차세 벽에 막힌 현대차·기아, 10월 신차 판매 58% 급감 - 글로벌이코노믹",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "러시아 폐차세 벽에 막힌 현대차·기아, 10월 신차 판매 58% 급감 - 글로벌이코노믹 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbk0weFRZcHRmcnJqSDNyQmN1TmNvTUFVZ0szUzlDVTM3OGp0cDVWbGJ3TDJKcUllLVJpV01XZ3ZXZzdaSnoxU19DRXI1bXpKUjRyM1Q3OTFkazRYM2Z3UnhMdWMxdEtDRVExRjMxdmlYa0V6NHBQS3JpeE5vSjhHZHk4WUNPQkYw?oc=5"
+  },
+  {
+    "id": "kr-405790",
+    "date": "2026-11-22",
+    "brand_id": "byd",
+    "brand_name": "BYD (비야디)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "“대놓고 베꼈네” 말 나오더니…中 BYD 야심작, 유럽 진출 앞두고 ‘날벼락’ - 서울경제",
+    "vehicles": [
+      "BYD"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "“대놓고 베꼈네” 말 나오더니…中 BYD 야심작, 유럽 진출 앞두고 ‘날벼락’ - 서울경제 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rYUNtZ0JhSU1tc0ZYOTRrVGFpeGpLRU84TTlCRktpLWpkc0xCaVFKRWR0RWJJdERObDB6TnZfUm8yQzdlOVpPOHpQZmFYMUZNYnfSAVNBVV95cUxPUWMycm9nY2hRblRocjdETWRRVnZLbXNOQ2ViMHZPMkYybkM2UHZQMFc3Y0Q0cVRWcEhZZXFkMVlYUUJRUlNTWmEtSEZaUjhkTURoOA?oc=5"
+  },
+  {
     "id": "nhtsa-23158",
     "date": "2026-11-21",
     "brand_id": "mercedes",
@@ -108,6 +162,60 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUZTcWRfbWs5N2RQYlcwMldJWnI3bVh0a2VaRnRsbHNCSXVVZ3h3bERvOU1PeWIxUmt2eENGMzhXWVdpNTBHbU5GRXp5bzM3MkxWdjBhNGJDemtTVGlGanR6elltQnJMSkQ5d3BNR0p0UjlnZHZLdWVoaXdGb1cybVRoN3pHWmFtUEJEaFBucV9DM0FMSjZyMVBtcV9ySE5TWm9meTBzNHNoMFhwcDdKaEdXYXI5bWx0VTVXMmxkU0JGc3pLbHJJMS1GemY?oc=5"
+  },
+  {
+    "id": "kr-265205",
+    "date": "2026-11-21",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "혼다·도요타, 다카타 에어백 파열 위험에 160만대 리콜 - 뉴시스",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "혼다·도요타, 다카타 에어백 파열 위험에 160만대 리콜 - 뉴시스 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzSVl6SmlIQjg3OTFvNEFmN2pFTnpfdm1kaDVnX0lDbkhTY2Q2dlh5djRJVTJLbTN4dWJkdWJnQVNIYWVXdkgtRmNYVEZtV3hpalgxRkFmVERXaXctRDR5VEhBamVvNnVkYldrVEdsTF9DTkQ4YWZKM9IBeEFVX3lxTFAzSVl6SmlIQjg3OTFvNEFmN2pFTnpfdm1kaDVnX0lDbkhTY2Q2dlh5djRJVTJLbTN4dWJkdWJnQVNIYWVXdkgtRmNYVEZtV3hpalgxRkFmVERXaXctRDR5VEhBamVvNnVkYldrVEdsTF9DTkQ4YWZKMw?oc=5"
+  },
+  {
+    "id": "nhtsa-228624",
+    "date": "2026-11-21",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Honda, Acura, Lexus and Toyota vehicle recall in the US: NHTSA warns of airbag risk - Beinsure",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVHVZa3A4dWFzYmdsWG9PVTZ1U0pKZVJfVjhQeTJEcEJuMkU5bUhaMVJrNmNFbEwybUpxRVpSb1Nsdm5kRFZLaXV2NnVOcHV3dHN1NVZGYnFsaGRaMHMxTkQ5VHBab09OR1dqdW9tM0gzLXNpX0h1WkpfT2ZtRXEwYmdNaw?oc=5"
   },
   {
     "id": "cargokr-re-6443",
@@ -1598,6 +1706,33 @@
     "source_url": "https://www.car.go.kr/ri/stat/list.do"
   },
   {
+    "id": "nhtsa-21763",
+    "date": "2026-11-06",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Weekly Recalls: Cadillac/Chevrolet, Dodge, Hyundai, Lincoln - CarProUSA.com.",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNenMxTVZMbFhqRzJOdkNNbHE1UktZOGc3cl9ZN3ZqdHhWZkdZcEVoUGI4X3VRbTlnZENzUW92cldYVEFHWDZzdWl1Nlh5M2dKSzl5SDBITXFpdEhNR0hJVUxtSkVZMUUwRElEUlE0ZXpQcFNVM2RQMFFMVjh5VDZER20tcXdPRnA0Vm5Za9IBnAFBVV95cUxNd01PcFllbUl0Nk15U3NtUlFKLXdwd2ZyaE0wZk5uQWV0UVg4eGcwaFFTWGxsV2tHRm03VUZkZ3RaMlVGdWd3el9GNDhhcTMyQ1B4Z3Y4V1VTcE1Tbm9ZeDRVMXRsZWJ4Rk1Zc08zd2NtcXp5aWJlbjFJT19iYXhMcUNWMW5WOWdvellpaGhMNEVkcHY5WGJfMkhndGM?oc=5"
+  },
+  {
     "id": "cargokr-se-4868",
     "date": "2026-11-05",
     "brand_id": "hyundai_kia",
@@ -1866,6 +2001,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zU25DeDYyZ2s0TWdqVHduV0xvaWN1MEZuQ0tJMzFhd3FWMTI2ckNmdFAwa01Da0ZEYks1TVlZZjZSLXVTeTdEX1ZsaThJOFVZTWkzRkw0RFRlbnl3eEE?oc=5"
+  },
+  {
+    "id": "kr-617315",
+    "date": "2026-11-03",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "기아, 화재 발생 가능성에 쏘렌토 리콜 - 뉴스락",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "기아, 화재 발생 가능성에 쏘렌토 리콜 - 뉴스락 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GRXJVR2M1ZjRneEhnX0toMG5NY0VYbGM2ZzAxQlVJYmlCdW1HV0U0ZDc4YWs4cjFWOU9oazJsQTlEajBHbmRqVWN1Yzdnd3NQR2FhVVlKY1Jqc3dDMUNBbW8xMDlOakQxdllfeg?oc=5"
   },
   {
     "id": "cargokr-re-6407",
@@ -2491,6 +2653,33 @@
     },
     "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
     "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
+    "id": "kr-928697",
+    "date": "2026-10-28",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "푸조 3008·5008, 타이어 문제로 유럽서 리콜 - 오토뷰",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "푸조 3008·5008, 타이어 문제로 유럽서 리콜 - 오토뷰 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxRE9GdlVvdlZ5d3VndU9VOWxjYnUxTjQ0VW9mWnR6eHl6WXRYRU9yUUVRSGlGUkM5WE1LbVRmRVBSam1WZllQNENmeTdtcEM0eGNzZjZMc2hJcE44?oc=5"
   },
   {
     "id": "nhtsa-562185",
