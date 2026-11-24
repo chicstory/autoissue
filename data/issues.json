@@ -55,6 +55,33 @@
     "source_url": "https://www.car.go.kr/ri/stat/list.do"
   },
   {
+    "id": "kr-252467",
+    "date": "2026-11-23",
+    "brand_id": "byd",
+    "brand_name": "BYD (비야디)",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "\"대놓고 베꼈어\" 술렁이던 디자인…BYD 야심작 '날벼락' 판결 [지금이뉴스] - YTN",
+    "vehicles": [
+      "BYD"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "\"대놓고 베꼈어\" 술렁이던 디자인…BYD 야심작 '날벼락' 판결 [지금이뉴스] - YTN 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKckxRalhBSHY1T1ZZcWVmTXlrTUppWGlNUno5b2FBVzA0T3ZYRUR1TG9QWFoya2V1VmxtSk0zRUpVb1VySk1VYTVuVUV0Q09BWi1QUWhRRjdvaWZGaE5rcHRWTDdKeS1PXzNGWVZ4NVRtZHAwTGc?oc=5"
+  },
+  {
     "id": "kr-763231",
     "date": "2026-11-22",
     "brand_id": "hyundai_kia",
@@ -216,6 +243,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVHVZa3A4dWFzYmdsWG9PVTZ1U0pKZVJfVjhQeTJEcEJuMkU5bUhaMVJrNmNFbEwybUpxRVpSb1Nsdm5kRFZLaXV2NnVOcHV3dHN1NVZGYnFsaGRaMHMxTkQ5VHBab09OR1dqdW9tM0gzLXNpX0h1WkpfT2ZtRXEwYmdNaw?oc=5"
+  },
+  {
+    "id": "kr-146090",
+    "date": "2026-11-21",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "‘주행거리 표시 결함’…제네시스 GV80 등 10개 차종 ‘리콜’ - JTBC",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "‘주행거리 표시 결함’…제네시스 GV80 등 10개 차종 ‘리콜’ - JTBC 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TVmxPX0dpeUg4anU5T3BJbjJsTFp5VU93dDc0WWpRak9DSGFfdzJPR1ZqV2N0REdHaWpSVGhNSkVWcnI5Vzk5ZFNQM3JkYVNyT2tQSg?oc=5"
   },
   {
     "id": "cargokr-re-6443",
@@ -812,6 +866,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeWVoTEdjeFB4QlBpalRfQTJvejg3Yl9KWnNIMVJPeWk0ZE9RVDJwWEtWd0k3WnZrQU0yVEpVMVdETU5vRmVaWE5KTmFJcDZwcEU3V2wzUjdMNjZXVDlsWnZJdV9HZUJib1o0UFowLXU1dW8wVTNEM0QtWXRzbTdCZVluek93VUdVVlpEUWFMMEJQQ3V6NWVZRzJlQUhfZWlQMERwdy1xUQ?oc=5"
+  },
+  {
+    "id": "nhtsa-570526",
+    "date": "2026-11-16",
+    "brand_id": "bmw_mini",
+    "brand_name": "BMW · MINI",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] BMW Recalls 720,000 Vehicles For Water Pump Fire Risk. Owners Told To Park Outside - Motor1.com",
+    "vehicles": [
+      "BMW"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/bmw_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE52R0tyNkROMzk3N0xvd1RYUm5MTU5uMTJJTTRHTmZNX0lqUnBIRGxteFRKN2tPSThhdzRtWXFKbTN6ZUZuZEZwNXU4dEphbkFEM2hOd1UySXh5d0ZvWW9uZ2VEaFc5REZlRFR1Tkt2T0Mtdw?oc=5"
   },
   {
     "id": "cargokr-se-4877",
@@ -1733,6 +1814,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNenMxTVZMbFhqRzJOdkNNbHE1UktZOGc3cl9ZN3ZqdHhWZkdZcEVoUGI4X3VRbTlnZENzUW92cldYVEFHWDZzdWl1Nlh5M2dKSzl5SDBITXFpdEhNR0hJVUxtSkVZMUUwRElEUlE0ZXpQcFNVM2RQMFFMVjh5VDZER20tcXdPRnA0Vm5Za9IBnAFBVV95cUxNd01PcFllbUl0Nk15U3NtUlFKLXdwd2ZyaE0wZk5uQWV0UVg4eGcwaFFTWGxsV2tHRm03VUZkZ3RaMlVGdWd3el9GNDhhcTMyQ1B4Z3Y4V1VTcE1Tbm9ZeDRVMXRsZWJ4Rk1Zc08zd2NtcXp5aWJlbjFJT19iYXhMcUNWMW5WOWdvellpaGhMNEVkcHY5WGJfMkhndGM?oc=5"
   },
   {
+    "id": "kr-698825",
+    "date": "2026-11-06",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "잇단 리콜에 판매 3% 굴욕…‘GD 차’ 사이버트럭 결국 단종 - 중앙일보",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "잇단 리콜에 판매 3% 굴욕…‘GD 차’ 사이버트럭 결국 단종 - 중앙일보 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OV1hxVTE0MUFiRlNnRWI3eDJiT0xkT1l2bXhQTmd1VmpGcS1PSk1ocVRNSVJIMjZnOGROU0FRaGJ5LWczZkNiajJQaW1tRFd2VUswam1B?oc=5"
+  },
+  {
     "id": "cargokr-se-4868",
     "date": "2026-11-05",
     "brand_id": "hyundai_kia",
@@ -1812,6 +1920,33 @@
     },
     "source_name": "미국 NHTSA / Global Safety Agency",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rdjRYSXRqdEgxdWliWC0yS2NYRll3aFNISjZNUFdFbUJPRndmb0YxWVRMU2RWRmJDRnd3QV82OXVIOVV2N3l6N1BsMi1uMFl6blNLczF3Tld1U2JIYXBabFFVUnJIMUQyNHVMRA?oc=5"
+  },
+  {
+    "id": "nhtsa-396374",
+    "date": "2026-11-05",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] NHTSA's OTA Recall Push: What Tesla Owners Need to Do - BASENOR - Tesla Accessories",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQnduTFg4N2JDZ2pTdEd4Ulg4WjJtZFBoOGlSOV8tSzA2U3B5S3pRUngwX3RwUEZ3d2ZnSzhrZ3hKZTVKaFczZ1p2UkVVNjRySzFhRjNMdGNlZ0FOekpRSWEwMDBNNGE4THgzRFcwNXF6dFAtMkllQlU4LVFOcG9BNlNHcUhQZkpKcXZjRl9Dbw?oc=5"
   },
   {
     "id": "cargokr-re-6435",
@@ -2598,6 +2733,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fUXFIQWJHVy05TnNqSUlRLURnN1B3VExQX2hXcDZ6SG50dWY3NnFTSVJLQWtlUEdxVzBDbV9wVVYzYV8xaUZpT3kxMWJZS09IV3N1blBzdGR4LWt1b3ZKUGtR?oc=5"
+  },
+  {
+    "id": "kr-217517",
+    "date": "2026-10-29",
+    "brand_id": "vw_audi",
+    "brand_name": "폭스바겐 · 아우디",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "폭스바겐그룹, 전기차 8만 5000대 리콜 '화재 우려에 충전 80% 제한' - 다나와 자동차",
+    "vehicles": [
+      "폭스바겐"
+    ],
+    "powertrain_tags": [
+      "전기차 고전압·배터리 제어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/volkswagen_engine_table.html",
+    "summary": "폭스바겐그룹, 전기차 8만 5000대 리콜 '화재 우려에 충전 80% 제한' - 다나와 자동차 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fdHM0YTV5OVd2V1BWMHEyX0ZjOTR3M2oyZWdValZRdEJ0V3hJRXhjTjFCQTM3X2pfVjBVNDgwQWJXb1k3RW9nendHNWpucnVNSUZibjItS3dUWlA4NjNNc3pGUWxzeDRETHRR?oc=5"
   },
   {
     "id": "cargokr-se-4850",
