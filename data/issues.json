@@ -82,6 +82,114 @@
     "source_url": "https://www.car.go.kr/ri/stat/list.do"
   },
   {
+    "id": "cargokr-se-4892",
+    "date": "2026-11-25",
+    "brand_id": "bmw_mini",
+    "brand_name": "BMW · MINI",
+    "category": "service",
+    "category_label": "🔧 무상수리·OTA",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 무상수리",
+    "title": "[비엠더블유] BMW 740 xDrive 등 3차종 - 헤드 유닛 관련 무상수리",
+    "vehicles": [
+      "BMW 740 xDrive 등 3차종"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/bmw_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: BMW 740 xDrive 등 3차종 | 주요 조치: 헤드 유닛 관련 무상수리",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "헤드 유닛 관련 무상수리",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
+    "id": "cargokr-se-4891",
+    "date": "2026-11-25",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "service",
+    "category_label": "🔧 무상수리·OTA",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 무상수리",
+    "title": "[제네시스] GV60 - 운전자 주행 보조 제어기 관련 무상수리",
+    "vehicles": [
+      "GV60"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: GV60 | 주요 조치: 운전자 주행 보조 제어기 관련 무상수리",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "운전자 주행 보조 제어기 관련 무상수리",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
+    "id": "cargokr-se-4890",
+    "date": "2026-11-25",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "service",
+    "category_label": "🔧 무상수리·OTA",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 무상수리",
+    "title": "[제네시스] GV60 - 운전자 주차 보조 제어기 관련 무상수리",
+    "vehicles": [
+      "GV60"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: GV60 | 주요 조치: 운전자 주차 보조 제어기 관련 무상수리",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "운전자 주차 보조 제어기 관련 무상수리",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
+    "id": "nhtsa-825160",
+    "date": "2026-11-25",
+    "brand_id": "rivian",
+    "brand_name": "Rivian",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Rivian R2 Hit With Third Recall in Two Months: Wrong Tire Labels - EVXL.co",
+    "vehicles": [
+      "Rivian"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYUh0U25wT0NnRENsckdIOTVEVFhoQmp0RUlfTXlFMFNFSzZaLXdsSENQSGNQZ3ZaRkI3U0VXX0FIaXRxbmQwRkI2VXNoMmRpbzk0UFBGT1ZjQ3BPY0pxaHh5NzdxTzVxYndrQXN2R3dLTFlzd3BZc3BiaXB3OHp1by1UZms?oc=5"
+  },
+  {
     "id": "cargokr-se-4887",
     "date": "2026-11-24",
     "brand_id": "mercedes",
@@ -1112,6 +1220,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPUnNmVUNHZjMyWm9JLWM5MFhDdmhYSFVwNG5TUU0tNmFaOVFSeTRqekVaZUxrU1hlbXVGWjdhTi0yaWJ4QU9obUdpMXNreERpdWF2VDJxdEotWHRydTBQeFowZW5RSjg3UWlONjBzTm5Xcm1POUUyNXJzVEgwUmlGTGtjMUdybkZGQUZuUXJCcU1HbUpZUm1BeXlMeW11aFlXNkJkSnc1cWNkUFVZVGNJZ2gtdkh1ODc0aGE5cDFMa2hCc0x1WGgzYV81NEFsbWExTm96eThROWdmN19qeVFxdEpiT0Q0all6R3BVMFpwOFljX2lLZEJGSHVBbVMzZGRmYTJwaVBFT1Q5eUhRVUZIYnA0RkhfOUxyU2w1eTBpWG85N2Rnb2N3d1pMQ1hDdV80X0t3TXpZckQ?oc=5"
   },
   {
+    "id": "nhtsa-505447",
+    "date": "2026-11-14",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Toyota Tundra Recalled Again Over Another V6 Engine Problem - Autoblog",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ0dJVWRISzY4YnZTcmk3R1dxRGdmTDRDczBMUEhRSkxCLVJSLXI2cnVaSkZHblV2aFVYc0IzNHJ1dFl0bUhHdkVUaXlBem1xc2MyTXdUbnNHQTNYQThwaE5GbWJIOGVqWEZWRGVFQ2R6d1lLZG9WSzVXTzJJM3ZMRTU1TXhHcW5FSGtabExzRGtEeWM?oc=5"
+  },
+  {
     "id": "cargokr-se-4877",
     "date": "2026-11-13",
     "brand_id": "ford_lincoln",
@@ -2083,6 +2218,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OV1hxVTE0MUFiRlNnRWI3eDJiT0xkT1l2bXhQTmd1VmpGcS1PSk1ocVRNSVJIMjZnOGROU0FRaGJ5LWczZkNiajJQaW1tRFd2VUswam1B?oc=5"
+  },
+  {
+    "id": "nhtsa-380996",
+    "date": "2026-11-06",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Weekly Recalls: Cadillac/Chevrolet, Dodge, Hyundai, Lincoln - Car Pro Show",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNenMxTVZMbFhqRzJOdkNNbHE1UktZOGc3cl9ZN3ZqdHhWZkdZcEVoUGI4X3VRbTlnZENzUW92cldYVEFHWDZzdWl1Nlh5M2dKSzl5SDBITXFpdEhNR0hJVUxtSkVZMUUwRElEUlE0ZXpQcFNVM2RQMFFMVjh5VDZER20tcXdPRnA0Vm5Za9IBnAFBVV95cUxNd01PcFllbUl0Nk15U3NtUlFKLXdwd2ZyaE0wZk5uQWV0UVg4eGcwaFFTWGxsV2tHRm03VUZkZ3RaMlVGdWd3el9GNDhhcTMyQ1B4Z3Y4V1VTcE1Tbm9ZeDRVMXRsZWJ4Rk1Zc08zd2NtcXp5aWJlbjFJT19iYXhMcUNWMW5WOWdvellpaGhMNEVkcHY5WGJfMkhndGM?oc=5"
   },
   {
     "id": "cargokr-se-4868",
@@ -3140,6 +3302,33 @@
     },
     "source_name": "국내 주요 언론 & 국토교통부 보도",
     "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxRE9GdlVvdlZ5d3VndU9VOWxjYnUxTjQ0VW9mWnR6eHl6WXRYRU9yUUVRSGlGUkM5WE1LbVRmRVBSam1WZllQNENmeTdtcEM0eGNzZjZMc2hJcE44?oc=5"
+  },
+  {
+    "id": "kr-262023",
+    "date": "2026-10-28",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "[단독] 볼보코리아, 차량 결함 알고도 1250억원어치 판매…과징금 22억 - MTN 머니투데이방송",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "[단독] 볼보코리아, 차량 결함 알고도 1250억원어치 판매…과징금 22억 - MTN 머니투데이방송 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jZFFja1A2VjhReXVOVFFQOVVXS1BNcUhUdjV0V3AyQkdEcktKWlI3WGs3X0ZLbzJCbnlCSXVlM3Bxb0JVZ0I2YzY4aUhTcVN3N050YzF5Q1RGSUhwbFNZ?oc=5"
   },
   {
     "id": "nhtsa-562185",
