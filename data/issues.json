@@ -28,6 +28,142 @@
     "source_url": "https://www.car.go.kr/ri/stat/list.do"
   },
   {
+    "id": "cargokr-re-6457",
+    "date": "2026-11-27",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 리콜",
+    "title": "[테슬라] Model 3 등 2차종 - 하향등 관련 리콜",
+    "vehicles": [
+      "Model 3 등 2차종"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: Model 3 등 2차종 | 주요 조치: 하향등 관련 리콜",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "하향등 관련 리콜",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/stat/list.do"
+  },
+  {
+    "id": "cargokr-re-6377",
+    "date": "2026-11-27",
+    "brand_id": "gm_chevy",
+    "brand_name": "GM · 쉐보레",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 리콜",
+    "title": "[한국지엠] 트랙스 크로스오버 등 2차종 - 후방 카메라 관련 리콜",
+    "vehicles": [
+      "트랙스 크로스오버 등 2차종"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/chevrolet_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: 트랙스 크로스오버 등 2차종 | 주요 조치: 후방 카메라 관련 리콜",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "후방 카메라 관련 리콜",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/stat/list.do"
+  },
+  {
+    "id": "kr-360629",
+    "date": "2026-11-27",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "한국지엠, 트랙스·트레일블레이저 리콜…후방 카메라 하자 - 뉴스락",
+    "vehicles": [
+      "현대·기아"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "한국지엠, 트랙스·트레일블레이저 리콜…후방 카메라 하자 - 뉴스락 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpZWRWRW5GeXdOZXZDSTQxV3dyZmZlREUwTkZIazFyNmxFWFpqYnNCRlVYYllScVllcEdTTzF1NjRsamM3dm9tRU9YV2tuTW91N0d4X3FVdWN5ZWtvVExFbzZpNmdNeDRNMlhxSA?oc=5"
+  },
+  {
+    "id": "cargokr-se-4894",
+    "date": "2026-11-26",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "service",
+    "category_label": "🔧 무상수리·OTA",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 무상수리",
+    "title": "[기아] 니로 - 리어 스프링 관련 무상수리",
+    "vehicles": [
+      "니로"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: 니로 | 주요 조치: 리어 스프링 관련 무상수리",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "리어 스프링 관련 무상수리",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
+    "id": "cargokr-se-4893",
+    "date": "2026-11-26",
+    "brand_id": "hyundai_kia",
+    "brand_name": "현대·기아 (제네시스)",
+    "category": "service",
+    "category_label": "🔧 무상수리·OTA",
+    "origin": "domestic",
+    "origin_label": "국토부 공식 무상수리",
+    "title": "[현대] 그랜저 - 엔진제어장치(ECU) 관련 무상수리",
+    "vehicles": [
+      "그랜저"
+    ],
+    "powertrain_tags": [
+      "엔진 및 연료 공급계통",
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/hyundai_kia_engine_table.html",
+    "summary": "한국교통안전공단 자동차리콜센터(국토교통부) 공식 공고 사항입니다. 대상 차종: 그랜저 | 주요 조치: 엔진제어장치(ECU) 관련 무상수리",
+    "details": {
+      "units_affected": "공식 공고문 참조 (차대번호 조회 권장)",
+      "production_period": "세부 차종별 생산 기간 상이",
+      "defect_cause": "엔진제어장치(ECU) 관련 무상수리",
+      "action_plan": "지정 공식 서비스센터 방문 점검 및 무상 부품 교환/소프트웨어 업데이트 조치"
+    },
+    "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
+    "source_url": "https://www.car.go.kr/ri/grts/list.do"
+  },
+  {
     "id": "cargokr-re-6451",
     "date": "2026-11-25",
     "brand_id": "mercedes",
@@ -1247,6 +1383,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ0dJVWRISzY4YnZTcmk3R1dxRGdmTDRDczBMUEhRSkxCLVJSLXI2cnVaSkZHblV2aFVYc0IzNHJ1dFl0bUhHdkVUaXlBem1xc2MyTXdUbnNHQTNYQThwaE5GbWJIOGVqWEZWRGVFQ2R6d1lLZG9WSzVXTzJJM3ZMRTU1TXhHcW5FSGtabExzRGtEeWM?oc=5"
   },
   {
+    "id": "kr-50412",
+    "date": "2026-11-14",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "industry",
+    "category_label": "📰 업계·테크 이슈",
+    "origin": "domestic",
+    "origin_label": "국내 공식 공고 & 언론",
+    "title": "\"압수한 BYD 설계 문서 파기하라\"… 네덜란드 법원, 재규어 랜드로버에 ‘강제 철퇴’ - 초이스스탁US",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "\"압수한 BYD 설계 문서 파기하라\"… 네덜란드 법원, 재규어 랜드로버에 ‘강제 철퇴’ - 초이스스탁US 관련 최신 국내 공식 보도 및 공고 사항입니다. 상세 세부 내역은 원문 링크에서 확인하실 수 있습니다.",
+    "details": {
+      "units_affected": "공고문 참조",
+      "production_period": "세부 차종별 상이",
+      "defect_cause": "공식 공고 사유 참조",
+      "action_plan": "지정 공식 서비스센터 방문 또는 무상 조치"
+    },
+    "source_name": "국내 주요 언론 & 국토교통부 보도",
+    "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWeVFoWERyQTd1WUJMdDFqUVJyUFE0b2pENGFiQ2cycEZ4VWllcUhMRFgySU1feVZXRG1JVHFFYVRkX2JFVWpKc2xOM1ctMC04VEJuVHdzLVFVTlUxVExQWGxqVE9SSFU?oc=5"
+  },
+  {
     "id": "cargokr-se-4877",
     "date": "2026-11-13",
     "brand_id": "ford_lincoln",
@@ -1815,6 +1978,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1RjhfbWpYZ051RFNucXh2bDgwV014TE11V1dsalYyUHZlTlAzbGhFeF9OeFNxaUpjM0tuYk5TZnpuLVIzMHBUQkYyb3BBMHZRbF9MSS1xcXhRR3FPNktNdXVKMkk?oc=5"
   },
   {
+    "id": "nhtsa-241799",
+    "date": "2026-11-11",
+    "brand_id": "gm_chevy",
+    "brand_name": "GM · 쉐보레",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Brake glitch linked to 20 minor crashes prompts recall of over 67,000 Cadillac and Chevy EVs - The Cool Down",
+    "vehicles": [
+      "GM"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/chevrolet_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOenZzUkwzTmhiYTNHLWowUG5iTWUwdjZ3RlBWbENlMjVXOWRMdlhERkNXUHdKa1JUc1dKTTBVcmlpY3hhaXZhYWExMkRYLWNma3VkeXRqOXZBck95dm1SU0sxUlJWV3pmSzdVTHlBbTNCakRLb1RCYk54Nkx2TWktOUVhRmdLUQ?oc=5"
+  },
+  {
     "id": "cargokr-re-6432",
     "date": "2026-11-10",
     "brand_id": "hyundai_kia",
@@ -2355,6 +2545,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQnduTFg4N2JDZ2pTdEd4Ulg4WjJtZFBoOGlSOV8tSzA2U3B5S3pRUngwX3RwUEZ3d2ZnSzhrZ3hKZTVKaFczZ1p2UkVVNjRySzFhRjNMdGNlZ0FOekpRSWEwMDBNNGE4THgzRFcwNXF6dFAtMkllQlU4LVFOcG9BNlNHcUhQZkpKcXZjRl9Dbw?oc=5"
   },
   {
+    "id": "nhtsa-637005",
+    "date": "2026-11-05",
+    "brand_id": "tesla_others",
+    "brand_name": "테슬라 · 기타 수입차",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] NHTSA Push Favors Tesla-Style Over-the-Air Recall Fixes - TeslaNorth.com",
+    "vehicles": [
+      "테슬라"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WQ3VtQ1ViblE1R0JYSHhkbDN4d3lCMHo4eW9qSk81aGFXMlJ1Q19mb2MzUEdZRFY2alhZemh4eGc0TE52WHREbTBCc0VlTjd4cnVaOWhUZEFlajJKNU1hTlRWVGdtRzVWMkE?oc=5"
+  },
+  {
     "id": "cargokr-re-6435",
     "date": "2026-11-04",
     "brand_id": "bmw_mini",
@@ -2571,6 +2788,33 @@
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GRXJVR2M1ZjRneEhnX0toMG5NY0VYbGM2ZzAxQlVJYmlCdW1HV0U0ZDc4YWs4cjFWOU9oazJsQTlEajBHbmRqVWN1Yzdnd3NQR2FhVVlKY1Jqc3dDMUNBbW8xMDlOakQxdllfeg?oc=5"
   },
   {
+    "id": "nhtsa-606605",
+    "date": "2026-11-03",
+    "brand_id": "gm_chevy",
+    "brand_name": "GM · 쉐보레",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] GM’s L87 Recall Set a Cutoff Date and a Fix. NHTSA Is Now Checking Both - The Auto Wire",
+    "vehicles": [
+      "GM"
+    ],
+    "powertrain_tags": [
+      "파워트레인 및 주요 전장계통"
+    ],
+    "engine_link": "https://thapathlab.com/engines/chevrolet_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMkJCTWJxZUQ3eWpRX1F4cE1XdU9SSmZuSEVXc1hZa3M5RURNb1c5eTUzT3hmVEQ3QWpQQTdtNUVuSnh4Tm1aLTlHaHQ0X3dwVmp0bjBQZEpMRkJfbE16WEJDR1JZMk1tR1hWQkJiYjN2c2h3bzRZT2Yta1dpREdsMA?oc=5"
+  },
+  {
     "id": "cargokr-re-6407",
     "date": "2026-11-02",
     "brand_id": "ford_lincoln",
@@ -2596,6 +2840,33 @@
     },
     "source_name": "한국교통안전공단 자동차리콜센터 (국토교통부 공식)",
     "source_url": "https://www.car.go.kr/ri/stat/list.do"
+  },
+  {
+    "id": "nhtsa-761823",
+    "date": "2026-11-02",
+    "brand_id": "toyota_lexus",
+    "brand_name": "토요타 · 렉서스",
+    "category": "recall",
+    "category_label": "🚨 리콜 공고",
+    "origin": "global_nhtsa",
+    "origin_label": "해외 선제 공고 (NHTSA 🌐)",
+    "title": "[해외 선제공고] Toyota recalls more than 200,000 vehicles. See recall list - Delawareonline.com",
+    "vehicles": [
+      "토요타"
+    ],
+    "powertrain_tags": [
+      "전장·전자제어·소프트웨어"
+    ],
+    "engine_link": "https://thapathlab.com/engines/toyota_engine_table.html",
+    "summary": "미국 NHTSA 및 북미 안전 감독 당국에서 발표된 선제적 결함 조사 및 리콜 공고입니다. 국내 도입 여부는 순차 확인 중입니다.",
+    "details": {
+      "units_affected": "북미 대상 대수 확인 중",
+      "production_period": "글로벌 생산분 대상",
+      "defect_cause": "NHTSA 캠페인 조사 보고서 참조",
+      "action_plan": "북미 공식 딜러망 선제 점검 개시 (국내 미반영분 선제 대비 권장)"
+    },
+    "source_name": "미국 NHTSA / Global Safety Agency",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcElVcFVPLVQ1bTg0akNtU0NyU2QwSHFXa2RMNGEwcWoyYWpFOUJXX2xfekpDS2hsMzQxVFBhZ3lKRDRTWVlwUlhWVFhtUzRma2VLdnV5b3F3X1Axdzk4bGhMTmJSeDN6aUE4OGFTQy0zeTBSR3JYN3hUc24xdEEtR2hiSE1haHdfWndLeGdGdWZpdUo4M2UyUm9zeDFmbzk0VFBJcGtfTmpQSEdVckp1WFhTY25SckdsV21B?oc=5"
   },
   {
     "id": "kr-564874",
